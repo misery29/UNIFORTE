@@ -7,8 +7,10 @@ export function Hero() {
 return (
 
     <div className={styles.hero}>
+    <div classname={styles.heroOverlay}>
     <img src={HeroImg} className={styles.heroImg} alt="seção hero" />
     <img src={HeroSVG} className={styles.heroSvg}/>
+    </div>
     <div className={styles.heroTextContainer}>
     <h1 className={styles.heroText}>UNIFORTE</h1>
     <h1 className={styles.heroText}>Eficiência e praticidade</h1>{""}

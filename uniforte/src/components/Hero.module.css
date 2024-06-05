@@ -1,7 +1,12 @@
-.heroImg{
-    width: 100%;
-    height: 60rem;
+
+.heroOverlay{
+    height: 100%;
     object-fit:cover;
+    }
+
+.heroImg{
+    min-width: 100vw;
+    height: 85vh;
     position: relative;
     z-index: 0;
 }
@@ -10,9 +15,9 @@
     position: absolute;
     display: block;
     top: 9rem;
-    left: -2rem;
-    width: 100%;
-    height: 99.5%;
+    left: -9.3rem;
+    width: 70rem;
+    height: 51.8rem;
     opacity: 1;
     z-index: 1;
   }
@@ -35,4 +40,11 @@
     font-size:2.8rem;
     color:white;
     font-weight: 1000;
+  }
+
+  @media (max-width: 1200px) {
+
+    .heroImg{
+      min-width: 1200px;
+  }
   }
