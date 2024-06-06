@@ -1,6 +1,5 @@
 import styles from "./Hero.module.css";
-import HeroImg from "../assets/hero-img.png";
-import HeroSVG from "../assets/hero-svg.svg";
+import HeroImg from "../assets/NEGAO.png";
 
 
 export function Hero() {
@@ -9,7 +8,10 @@ return (
     <div className={styles.hero}>
     <div classname={styles.heroOverlay}>
     <img src={HeroImg} className={styles.heroImg} alt="seção hero" />
-    <img src={HeroSVG} className={styles.heroSvg}/>
+    <div className={styles.button_container}>
+        <button className={styles.hero_button1}>Fale Conosco</button>
+        <button className={styles.hero_button2}>Conheça-nos &rarr;</button>
+    </div>
     </div>
     <div className={styles.heroTextContainer}>
     <h1 className={styles.heroText}>UNIFORTE</h1>

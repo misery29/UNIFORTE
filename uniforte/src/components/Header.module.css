@@ -1,6 +1,6 @@
 .header {
     background-image: linear-gradient(-180deg, #FFFFFF, #CACACA);
-    width: 100%;
+    width: 100vw;
     height: 8.75rem;
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;

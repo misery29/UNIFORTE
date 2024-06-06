@@ -6,23 +6,12 @@
 
 .heroImg{
     min-width: 100vw;
-    height: 85vh;
+    height: 95vh;
     position: relative;
     z-index: 0;
 }
 
-.heroSvg {
-    position: absolute;
-    display: block;
-    top: 9rem;
-    left: -9.3rem;
-    width: 70rem;
-    height: 51.8rem;
-    opacity: 1;
-    z-index: 1;
-  }
-
-  .heroTextContainer{
+.heroTextContainer{
     position: absolute;
     top: 25rem;
     left: 10rem;
@@ -42,9 +31,71 @@
     font-weight: 1000;
   }
 
-  @media (max-width: 1200px) {
+  .button_container {
+    display: flex;
+    gap:1rem;
+    position: absolute;
+    top:42rem;
+    left:10rem;
+    z-index: 5;
+    white-space: nowrap;
+}
 
-    .heroImg{
-      min-width: 1200px;
-  }
-  }
+.hero_button1, .hero_button2 {
+    font-size: 1.5rem;
+    padding: 0.8rem 1.25rem;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+.hero_button1 {
+    background: linear-gradient(90deg, #c54444, #666dbd);
+    color: white;
+}
+
+.hero_button1:hover {
+    background: linear-gradient(90deg, #666dbd, #c54444);
+}
+
+.hero_button2 {
+    background: transparent;
+    color: #ffffff;
+    border: 2px solid linear-gradient( #c54444, #666dbd);
+    border-width: 2px;    
+    position: relative;
+    z-index: 1;
+
+
+}
+
+.hero_button2::before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background:transparent;
+    z-index: -1;
+    border-radius: 5px;
+    
+    
+}
+
+.hero_button2:hover {
+    color: white;
+}
+
+.hero_button2:hover::before {
+    background: linear-gradient(to left, #c54444, #666dbd);
+    background: linear-gradient(to left, #666dbd, #c54444);
+}
+
+@media (max-width: 1200px) {
+
+  .heroImg{
+    min-width: 1200px;
+}
+}
