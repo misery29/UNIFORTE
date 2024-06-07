@@ -6,7 +6,7 @@ export function Hero() {
 return (
 
     <div className={styles.hero}>
-        <div classname={styles.heroOverlay}>
+        <div className={styles.heroOverlay}>
             <img src={HeroImg} className={styles.heroImg} alt="seção hero" />
             <div className={styles.button_container}>
                 <button className={styles.hero_button1}>Fale Conosco</button>
