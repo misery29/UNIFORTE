@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { Header } from './components/Header'
+import { Swipers } from './components/Swiper'
 
 import './global.css'
 import { Hero } from './components/Hero'
@@ -10,6 +11,7 @@ function App() {
     <>
     <Header />
     <Hero />
+    <Swipers />
     </>
   )
 }
