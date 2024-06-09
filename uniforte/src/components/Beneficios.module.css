@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    margin: 2rem;
+}
+
+.description {
+    font-size: 2.4rem;
+    margin-bottom: 6rem;
+    font-weight: 400;
+}
+
+.benefitsGrid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    justify-items: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.icon {
+    width: 4rem;
+    height: 4rem;
+    background-color: #d3d3d3;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media (max-width: 768px) {
+    .benefitsGrid {
+        grid-template-columns: 1fr;
+    }
+    .icon {
+        width: 3rem;
+        height: 3rem;
+    }
+    p {
+        font-size: 0.9rem;
+    }
+}

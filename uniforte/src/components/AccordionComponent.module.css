@@ -4,13 +4,9 @@
   margin: auto;
   padding: 20px;
   font-family: 'League Spartan', sans-serif;
-
 }
 
 .heading {
   font-weight: bold;
 }
 
-.MuiAccordionSummary-content .MuiTypography-root {
-  font-size: 1.1em; /* Ajuste o valor de acordo com a sua necessidade */
-}
