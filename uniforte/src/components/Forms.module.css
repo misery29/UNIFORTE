@@ -1,0 +1,67 @@
+
+.svg_contato {
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+.contato_box {
+    height: auto;
+    display: flex;
+}
+
+.contato_info {
+    margin-top: 18%;
+    margin-left: 17%;
+    width: 30%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column; /* Para empilhar .secao verticalmente */
+    justify-content: center; /* Centralizar verticalmente */
+    align-items: center; /* Centralizar horizontalmente */
+    text-align: center;
+    /*background-image: url(../assets/teste.png);*/
+    background-color: rgb(255, 255, 255);
+    padding: 20px; /* Espaço interno para melhor visualização */
+}
+.secao {
+    padding: 10%;
+    font-size: 19px;
+    display: flex; /* Empilhar os elementos verticalmente */
+    justify-content: center; /* Centralizar o conteúdo verticalmente */
+    align-items: center; /* Centralizar o conteúdo horizontalmente */
+    margin: 10px; /* Espaço entre cada .secao */
+}
+
+.secao p{
+    font-weight: 400;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+.logo_hora{
+    position: relative;
+    margin-left: 10px;
+    padding: 3px;
+}
+
+.secao_hora {
+    padding: 10%;
+    font-size: 19px;
+    display: flex; /* Empilhar os elementos verticalmente */
+    justify-content: center; /* Centralizar o conteúdo verticalmente */
+    align-items: center; /* Centralizar o conteúdo horizontalmente */
+    margin: 10px 0; /* Espaço entre cada .secao */
+}
+
+.secao_hora p{
+    font-weight: 400;
+}
+
+.text_content {
+    display: flex;
+    text-align: left;
+    flex-direction: column; /* Empilhar h2 e p verticalmente */
+    align-items: flex-start;
+    padding: 0px 40px; /* Centralizar horizontalmente */
+}
