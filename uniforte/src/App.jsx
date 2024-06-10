@@ -3,6 +3,7 @@ import { Header } from './components/Header'
 import { Swipers } from './components/Swiper'
 import { AccordionComponent } from './components/AccordionComponent'
 import { Hero } from './components/Hero'
+import { Forms } from './components/Forms'
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/material/styles';
 
@@ -38,6 +39,7 @@ function App() {
     <Swipers />
     <ThemeProvider theme={theme}>
     <AccordionComponent />
+    <Forms />
     </ThemeProvider>
     </>
   )
