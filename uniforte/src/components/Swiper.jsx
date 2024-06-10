@@ -10,8 +10,6 @@ import Vigia from '../assets/vigia.png';
 import Asseio from '../assets/asseio.png';
 import Telefonista from '../assets/telefonista.png';
 import Copeira from '../assets/copeira.png'
-import { Navigation, Pagination } from 'swiper/modules';
-
 
 export function Swipers () {
     return (

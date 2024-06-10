@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Header } from './components/Header'
 import { Swipers } from './components/Swiper'
-import { AccordionComponent } from './components/AccordionComponent'
+import { QuemSomos } from './components/QuemSomos';
+import { Beneficios } from './components/Beneficios'
 import { Hero } from './components/Hero'
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/material/styles';
@@ -24,8 +25,6 @@ const theme = createTheme({
 
 
 import './global.css'
-import { Beneficios } from './components/Beneficios'
-
 
 function App() {
   const [count, setCount] = useState(0)
@@ -37,7 +36,7 @@ function App() {
     <Beneficios />
     <Swipers />
     <ThemeProvider theme={theme}>
-    <AccordionComponent />
+      <QuemSomos/>
     </ThemeProvider>
     </>
   )
