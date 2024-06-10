@@ -4,6 +4,7 @@ import { Swipers } from './components/Swiper'
 import { QuemSomos } from './components/QuemSomos';
 import { Beneficios } from './components/Beneficios'
 import { Hero } from './components/Hero'
+import { Forms } from './components/Forms'
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/material/styles';
 
@@ -38,6 +39,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <QuemSomos/>
     </ThemeProvider>
+    <Forms />
     </>
   )
 }
