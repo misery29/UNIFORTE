@@ -2,7 +2,6 @@
   width: 100%;
   max-width: 600px;
   margin: auto;
-  padding: 20px;
   font-family: 'League Spartan', sans-serif;
 }
 
@@ -10,3 +9,8 @@
   font-weight: bold;
 }
 
+.accordionContainer > div{
+  margin-bottom: 2rem;
+  background: none;
+  border: none;
+}

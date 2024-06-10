@@ -1,0 +1,79 @@
+ .MuiAccordionSummary-content {
+    margin: 0 !important;
+  }
+  
+  .MuiAccordionSummary-expandIconWrapper {
+    margin-left: auto;
+  }
+  
+  .MuiTypography-root {
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .MuiAccordionSummary-root {
+    padding: 0 16px;
+  }
+  
+  .MuiAccordionDetails-root {
+    padding: 16px;
+  }
+
+  .container{
+    position:relative;
+    width: 100vw;
+    height: 175vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  
+  .background svg{
+    position: absolute;
+    z-index: -1;
+    width: 115rem;
+    height: 74rem;
+    top:21rem;
+    right: 1.4rem;
+  }
+
+  .content{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 350px;
+    left: 6rem;
+    top:25rem;
+  }
+
+  .content > h1, p{
+    color: black;
+  }
+
+  .content p{
+    font-size: 2rem;
+    font-weight: 500;
+  }
+
+  .content h1{
+    font-size: 4rem;
+    font-weight: 500;
+  }
+
+  .accordion{
+    position: absolute;
+    right: 8rem;
+    top:27rem;
+    width: 400px;
+    overflow: hidden;
+
+  }
+
+  .QuemSomosImg{
+    position: absolute;
+    top:27rem;
+    width: 600px;
+  }
