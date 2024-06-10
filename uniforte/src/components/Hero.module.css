@@ -13,6 +13,7 @@
     height: 95vh;
     position: relative;
     z-index: 0;
+    object-fit: cover;
 }
 
 .heroTextContainer{
