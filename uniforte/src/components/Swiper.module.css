@@ -91,3 +91,84 @@
         width: 10vh;
     }
 }
+
+.Swiper_container{
+    position: relative;
+    overflow: visible;
+}
+
+.svg{
+    position: absolute;
+    top: 29rem;
+    left: -1rem;
+    z-index: 2;
+}
+
+
+.svg2{
+    position: absolute;
+    top: 35rem;
+    right: -9rem;
+    z-index: -5;
+}
+
+.Swiper_container h1 {
+    z-index: 4;
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #000000;
+    margin-bottom:5rem;
+}
+
+.CardsContainer{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    z-index: 40;
+    overflow: visible;
+}
+
+.CardOverlay{
+    position: absolute;
+    top:-0.8rem;
+    width: 47%;
+    height: 93%;
+    background-color: rgba(5, 0, 43, 0.432);
+    z-index: 3;
+    border-radius: 12px;
+    pointer-events: none;
+
+}
+
+.CardsContainer img{
+    width: 47%;
+    height: 93%;
+    object-fit: cover;
+    border: #243795 1rem solid;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.CardButton{
+    background-image: linear-gradient(180deg, #E1724F, #DF3131);
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.CardsContainer p{
+    text-align: center;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+    z-index: 1;
+    top: -1rem;
+}

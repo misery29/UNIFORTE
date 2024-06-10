@@ -1,5 +1,6 @@
 import styles from "./Swiper.module.css";
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
@@ -14,7 +15,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 
 export function Swipers () {
     return (
-        <div className={styles.Swiper_conteiner}>
+        <div className={styles.Swiper_container}>
             <h1>Nossos Serviços</h1>
             <Swiper
             modules={[Navigation, Pagination]}
@@ -96,6 +97,19 @@ export function Swipers () {
                     </SwiperSlide>
                 </div>
             </Swiper>
+            <div className={styles.svg}>
+                <svg width="426" height="444" viewBox="0 0 426 444" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M425.651 228.132L0.232166 443.692L6.65791 0.333605L425.651 228.132Z" fill="#243795"/>
+                </svg>
+            </div>
+
+            <div className={styles.svg2}>
+                <svg width="921" height="254" viewBox="0 0 921 254" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M351.5 56L555.5 205.5H99L351.5 56Z" fill="#464646" fill-opacity="0.25"/>
+                    <path d="M556 0L921 206.5H199.5L556 0Z" fill="#151515" fill-opacity="0.25"/>
+                </svg>
+            </div>
+
         </div>
         
       );

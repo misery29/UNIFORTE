@@ -1,5 +1,6 @@
 .header {
-    background-image: linear-gradient(-180deg, #FFFFFF, #CACACA);
+    /*background-image: linear-gradient(-180deg, #FFFFFF, #CACACA);*/
+    background-color: white;
     width: 100vw;
     height: 8.5rem;
     display: grid;
