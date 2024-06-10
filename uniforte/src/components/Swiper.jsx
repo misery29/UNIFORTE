@@ -6,10 +6,10 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import Porteiro from '../assets/Portaria.png';
 import Recepcionista from '../assets/recepcionista.png';
-import Vigia from '../assets/Vigia.png';
+import Vigia from '../assets/vigia.png';
 import Asseio from '../assets/asseio.png';
-import Telefonista from '../assets/Telefonista.png';
-import Copeira from '../assets/Copeira.png'
+import Telefonista from '../assets/telefonista.png';
+import Copeira from '../assets/copeira.png'
 
 
 export function Swipers () {
