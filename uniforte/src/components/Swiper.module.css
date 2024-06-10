@@ -1,0 +1,93 @@
+.body {
+
+}
+
+.Swiper_conteiner {
+    justify-content: center; /* Centraliza verticalmente */
+    align-items: center; /* Centraliza horizontalmente */
+    margin: 0 auto; /* Centraliza a div horizontalmente */
+    width: 90%;
+    margin-top: 2%;
+    text-align: center;
+    height: 600px;
+}
+
+.Swiper_conteiner h1 {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    margin-bottom: 2%;
+}
+
+.Swiper_conteiner p {
+    font-size: 25px;
+    text-decoration: underline 2px;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    color: rgb(51, 51, 51);
+    margin-bottom: 3%;
+}
+
+.Swiper_content {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+}
+
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.button_content {
+    margin: 0 auto;
+    width: 20%;
+    height: 45px;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+/*.button_content a{
+    display: block;
+    text
+}*/
+
+.botao {
+    font-weight: 400;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(51, 51, 51);
+    font-size: 16px;
+    background-image: linear-gradient(90deg, #E1724F, #DF3131);
+    transition: all 0.3s ease-in-out;
+}
+
+.botao:hover {
+    color: rgb(255, 255, 255);
+    background-color: aqua;
+}
+
+
+@media (max-width: 1200vh) {
+    .button_content{
+        width: 20%;
+    }
+
+    .botao {
+        font-size: 100%;
+        width: 10vh;
+    }
+}
