@@ -23,7 +23,7 @@ export function Forms() {
         }
 
         
-        emailjs.send("service_qakd8lh", "template_rlv70fi", templateParams ,"1i60fXeW-Rxb2QmMv")
+        emailjs.send("service_urd8q49", "template_dt9lv5l", templateParams ,"U9HTefYkPAl2X31SV")
         .then((response) => {
             console.log(response.status, response.text)
         })
