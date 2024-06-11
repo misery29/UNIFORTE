@@ -1,5 +1,5 @@
 import styles from "./Hero.module.css";
-import HeroImg from "../assets/NEGAO.png";
+import HeroImg from "../../assets/NEGAO.png";
 
 
 export function Hero() {

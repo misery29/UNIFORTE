@@ -4,12 +4,12 @@ import { Navigation, Pagination } from 'swiper/modules';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import Porteiro from '../assets/Portaria.png';
-import Recepcionista from '../assets/recepcionista.png';
-import Vigia from '../assets/vigia.png';
-import Asseio from '../assets/asseio.png';
-import Telefonista from '../assets/telefonista.png';
-import Copeira from '../assets/copeira.png'
+import Porteiro from '../../assets/Portaria.png';
+import Recepcionista from '../../assets/recepcionista.png';
+import Vigia from '../../assets/vigia.png';
+import Asseio from '../../assets/asseio.png';
+import Telefonista from '../../assets/telefonista.png';
+import Copeira from '../../assets/copeira.png'
 
 
 export function Swipers () {
@@ -107,7 +107,7 @@ export function Swipers () {
                     <path d="M556 0L921 206.5H199.5L556 0Z" fill="#151515" fill-opacity="0.25"/>
                 </svg>
             </div>
-
+            <p id='quemsomos' className={styles.ref}>QUEMSOMOS</p>
         </div>
         
       );

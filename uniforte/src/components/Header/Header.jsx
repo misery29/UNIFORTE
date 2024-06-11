@@ -1,5 +1,5 @@
 import styles from "./Header.module.css";
-import UniforteLogo from "../assets/uniforte.svg";
+import UniforteLogo from "../../assets/uniforte.svg";
 
 function NavItem({ children, href }) {
   return (
@@ -15,12 +15,16 @@ export function Header() {
       <img src={UniforteLogo} alt="uniforte logo" />
       <ul>
         <NavItem href="#">Início</NavItem>
-        <NavItem href="#">Serviços</NavItem>
-        <NavItem href="#">Quem Somos</NavItem>
+        <NavItem href="#servicos">Serviços</NavItem>
+        <NavItem href="#quemsomos">Quem Somos</NavItem>
         </ul>
         <div className={styles.buttonContainer}>
             <button>
-                <p>Fale Conosco</p>
+                <p>
+                  <a href="#contato">
+                  Fale Conosco
+                  </a>
+                </p>
              </button>
         </div>
     </header>

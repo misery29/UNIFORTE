@@ -1,12 +1,13 @@
 import { useState } from 'react'
-import { Header } from './components/Header'
-import { Swipers } from './components/Swiper'
-import { QuemSomos } from './components/QuemSomos';
-import { Beneficios } from './components/Beneficios'
-import { Hero } from './components/Hero'
-import { Forms } from './components/Forms'
+import { Header } from './components/Header/Header'
+import { Swipers } from './components/Swiper/Swiper'
+import { QuemSomos } from './components/QuemSomos/QuemSomos';
+import { Beneficios } from './components/Beneficios/Beneficios'
+import { Hero } from './components/Hero/Hero'
+import { Forms } from './components/Forms/Forms'
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/material/styles';
+import   QuemSomosBackgroundSVG  from './components/QuemSomos/QuemSomosBackGround';
 
 const theme = createTheme({
   typography: {
@@ -26,7 +27,6 @@ const theme = createTheme({
 
 
 import './global.css'
-
 function App() {
   const [count, setCount] = useState(0)
 
@@ -39,6 +39,7 @@ function App() {
     <ThemeProvider theme={theme}>
       <QuemSomos/>
     </ThemeProvider>
+    <QuemSomosBackgroundSVG />
     <Forms />
     </>
   )

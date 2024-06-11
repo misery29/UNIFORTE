@@ -2,8 +2,8 @@
 import React from 'react';
 import BackgroundSVG from './QuemSomosSvg.jsx';
 import styles from './QuemSomos.module.css';
-import { AccordionComponent } from './AccordionComponent'
-import QuemSomosImg from "../assets/QuemSomosImg.png";
+import { AccordionComponent } from '../Accordion/AccordionComponent.jsx'
+import QuemSomosImg from "../../assets/QuemSomosImg.png";
 
 
 

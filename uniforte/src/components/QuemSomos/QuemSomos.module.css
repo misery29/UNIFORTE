@@ -28,6 +28,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    margin-top: 10rem;
   }
   
   .background svg{
@@ -77,3 +78,17 @@
     top:27rem;
     width: 600px;
   }
+
+  .SVGContainer{
+    position: relative;
+    overflow: visible;
+
+  }  
+
+  .svg_QuemSomos{
+    content: "";
+    position: absolute;
+    z-index: -50;
+    top:269.8vh;
+    right: 0;
+    }

@@ -1,6 +1,7 @@
 import React from 'react';
 
-const BackgroundSVG = () => (
+export default function BackgroundSVG() {
+  return (
   <svg width="1400" height="919" viewBox="0 0 1400 919" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g filter="url(#filter0_d_32_173)">
       <path d="M6 39C6 18.5655 22.5655 2 43 2H1357C1377.43 2 1394 18.5655 1394 39V872C1394 892.435 1377.43 909 1357 909H43C22.5654 909 6 892.435 6 872V39Z" fill="#F7F7F7" shape-rendering="crispEdges"/>
@@ -24,5 +25,4 @@ const BackgroundSVG = () => (
     </defs>
   </svg>
 );
-
-export default BackgroundSVG;
+}
