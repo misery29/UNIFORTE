@@ -11,7 +11,8 @@
 }
 
 .contato_info {
-    margin-top: 18%;
+    position: relative;
+    margin-top: 15%;
     margin-left: 17%;
     width: 30%;
     border-radius: 20px;
@@ -24,9 +25,22 @@
     background-color: rgb(255, 255, 255);
     padding: 20px; /* Espaço interno para melhor visualização */
 }
+
+.contato_info::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    top: -3px;
+    left: -3px;
+    bottom: -3px;
+    right: -3px;
+    background: linear-gradient(140deg, #c54444, #666dbd);
+    border-radius: 20px;
+}
+
 .secao {
     padding: 10%;
-    font-size: 19px;
+    font-size: 25px;
     display: flex; /* Empilhar os elementos verticalmente */
     justify-content: center; /* Centralizar o conteúdo verticalmente */
     align-items: center; /* Centralizar o conteúdo horizontalmente */
@@ -34,6 +48,12 @@
 }
 
 .secao p{
+    font-weight: 300;
+    padding: 5px;
+    margin-right: 0px;
+}
+
+.secao p:first-child{
     font-weight: 400;
     padding: 5px;
     margin-right: 0px;
@@ -41,13 +61,12 @@
 
 .logo_hora{
     position: relative;
-    margin-left: 10px;
-    padding: 3px;
+    padding: px;
 }
 
 .secao_hora {
     padding: 10%;
-    font-size: 19px;
+    font-size: 25px;
     display: flex; /* Empilhar os elementos verticalmente */
     justify-content: center; /* Centralizar o conteúdo verticalmente */
     align-items: center; /* Centralizar o conteúdo horizontalmente */
@@ -55,8 +74,14 @@
 }
 
 .secao_hora p{
-    font-weight: 400;
+    font-weight: 300;
 }
+
+.secao_hora p:first-child{
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
 
 .text_content {
     display: flex;
@@ -64,4 +89,61 @@
     flex-direction: column; /* Empilhar h2 e p verticalmente */
     align-items: flex-start;
     padding: 0px 40px; /* Centralizar horizontalmente */
+}
+
+.forms_contato {
+    color: white;
+    width: 500px;
+    text-align: center;
+    height: 60%;
+    margin-top: 16%;
+    margin-left: 10%;
+}
+
+
+.forms_contato h2 {
+    margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.forms_contato form {
+    display: flex;
+    flex-direction: column;
+}
+
+.forms_contato input, 
+.forms_contato textarea {
+    width: 100%;
+    height: 45px;
+    padding: 15px;
+    margin-bottom: 30px;
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 20px;
+}
+
+.forms_contato textarea {
+    height: 250px;
+}
+
+.forms_contato button {
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 40%;
+    padding: 13px;
+    border: 2px solid #c54444;
+    background-color: transparent;
+    color: white;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s, 0.3s ease-in-out;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.forms_contato button:hover {
+    background: #c54444;
+    color: rgb(51, 51, 51);
+    
 }

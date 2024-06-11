@@ -48,7 +48,7 @@ export function Swipers () {
                 </div>
                 <div className={styles.card}>
                     <SwiperSlide>
-                        <p>Portaria e Controle de acesso</p>
+                        <p>Portaria e Controle de Acesso</p>
                         <img className= {styles.Swiper_content} src= { Porteiro } alt="Slide 1" />
                         <div className= { styles.button_content }>
                             <a href="#" className= { styles.botao }>botao</a>
