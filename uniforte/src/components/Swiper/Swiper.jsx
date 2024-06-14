@@ -9,7 +9,7 @@ import Recepcionista from '../../assets/Recepcionista.png';
 import Vigia from '../../assets/Vigia.png';
 import Asseio from '../../assets/asseio.png';
 import Telefonista from '../../assets/Telefonista.png';
-import Copeira from '../../assets/copeira.png'
+import Copeira from '../../assets/Copeira.png'
 
 
 export function Swipers () {
@@ -39,7 +39,7 @@ export function Swipers () {
             >
                 <div className={styles.card}>
                     <SwiperSlide>
-                        <p>Recepcionista</p>
+                        <p className= {styles.Title}>Recepcionista</p>
                         <img className= {styles.Swiper_content} src= { Recepcionista }  alt="Recepcionista" />
                         <div className= { styles.button_content }>
                             <a href="#" className= { styles.botao }>botao</a>
@@ -48,7 +48,7 @@ export function Swipers () {
                 </div>
                 <div className={styles.card}>
                     <SwiperSlide>
-                        <p>Portaria e Controle de Acesso</p>
+                        <p  className= {styles.Title}>Portaria e Controle de Acesso</p>
                         <img className= {styles.Swiper_content} src= { Porteiro } alt="Slide 1" />
                         <div className= { styles.button_content }>
                             <a href="#" className= { styles.botao }>botao</a>
@@ -60,7 +60,7 @@ export function Swipers () {
                 </div>
                 <div className={styles.card}>
                     <SwiperSlide>
-                        <p>Vigia Noturno</p>
+                        <p className= {styles.Title}>Vigia Noturno</p>
                         <img className= {styles.Swiper_content} src= { Vigia } alt="Vigia Noturno" />
                         <div className= { styles.button_content }>
                             <a href="#" className= { styles.botao }>botao</a>
@@ -69,7 +69,7 @@ export function Swipers () {
                 </div>
                 <div className={styles.card}>
                     <SwiperSlide>
-                        <p>Asseio e Conservação</p>
+                        <p className= {styles.Title}>Asseio e Conservação</p>
                         <img className= {styles.Swiper_content} src= { Asseio } alt="Asseio e conservação" />
                         <div className= { styles.button_content }>
                             <a href="#" className= { styles.botao }>botao</a>
@@ -78,7 +78,7 @@ export function Swipers () {
                 </div>
                 <div className={styles.card}>
                     <SwiperSlide>
-                        <p>Telefonista</p>
+                        <p className= {styles.Title}>Telefonista</p>
                         <img className= {styles.Swiper_content} src= { Telefonista } alt="Telefonista" />
                         <div className= { styles.button_content }>
                             <a href="#" className= { styles.botao }>botao</a>
@@ -87,10 +87,25 @@ export function Swipers () {
                 </div>
                 <div className={styles.card}>
                     <SwiperSlide>
-                        <p>Copeira</p>
+                        <p className= {styles.Title}>Copeira</p>
                         <img className= {styles.Swiper_content} src= { Copeira } alt="Copeira" />
                         <div className= { styles.button_content }>
                             <a href="#" className= { styles.botao }>botao</a>
+                        </div> 
+                    </SwiperSlide>
+                </div>
+                <div className={styles.card_test}>
+                    <SwiperSlide>
+                        <p className= {styles.Title_test}>teste</p>
+                        <img className= {styles.Swiper_content_test} src= { Copeira } alt="Copeira" />
+                        <div className= {styles.overlay}>
+                            <p className= {styles.text}> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                                    Molestias nesciunt, illum, officiis illo veniam fugit repudiandae pariatur aliquid eius quisquam at consequuntur
+                                    temporibus iste eligendi voluptate, neque praesentium quidem ullam.
+                            </p>
+                        </div>
+                        <div className= { styles.button_content_test }>
+                            <a href="#" className= { styles.botao_test }>botao</a>
                         </div> 
                     </SwiperSlide>
                 </div>
@@ -102,8 +117,8 @@ export function Swipers () {
             </div>
 
             <div className={styles.svg2}>
-                <svg width="921" height="254" viewBox="0 0 921 254" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M351.5 56L555.5 205.5H99L351.5 56Z" fill="#464646" fill-opacity="0.25"/>
+                <svg width="921" height="254" viewBox="0 0 921 254" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M351.5 56L555.5 205.5H99L351.5 56Z" fill="#2e3f94" fill-opacity="0.25"/>
                     <path d="M556 0L921 206.5H199.5L556 0Z" fill="#151515" fill-opacity="0.25"/>
                 </svg>
             </div>

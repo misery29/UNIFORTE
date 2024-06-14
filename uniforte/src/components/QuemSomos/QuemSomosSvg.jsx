@@ -8,7 +8,7 @@ export default function BackgroundSVG() {
       <path d="M43 1C22.0132 1 5 18.0132 5 39V872C5 892.987 22.0132 910 43 910H1357C1377.99 910 1395 892.987 1395 872V39C1395 18.0132 1377.99 1 1357 1H43Z" stroke="url(#paint0_linear_32_173)" stroke-width="2" shape-rendering="crispEdges"/>
     </g>
     <defs>
-      <filter id="filter0_d_32_173" x="0" y="0" width="1400" height="919" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <filter id="filter0_d_32_173" x="0" y="0" width="1400" height="919" filterUnits="userSpaceOnUse">
         <feFlood flood-opacity="0" result="BackgroundImageFix"/>
         <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
         <feOffset dy="4"/>

@@ -32,8 +32,8 @@ export function Forms() {
     return (
         <div className= { styles.Main_contato } id="contato">
             <div className= { styles.contato_svg }>
-                <svg className= {styles.svg_contato} width="1200" height="1044" viewBox="0 200 1300 600" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M1450.66 1360.93L-165 45.5214L1878.93 -678L1450.66 1360.93Z" fill="#243795" fill-opacity="0.9"/>
+                <svg className= {styles.svg_contato} width="1400" height="1000" viewBox="0 200 1400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1450.66 1360.93L-165 45.5214L1878.93 -678L1450.66 1360.93Z" fill= '#2e3f94' fill-opacity=""/>
                 </svg>
             </div>
             <div className= { styles.contato_box }>

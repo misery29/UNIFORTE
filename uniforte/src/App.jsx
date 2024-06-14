@@ -8,6 +8,7 @@ import { Forms } from './components/Forms/Forms'
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/material/styles';
 import   QuemSomosBackgroundSVG  from './components/QuemSomos/QuemSomosBackGround';
+import './global.css'
 
 const theme = createTheme({
   typography: {
@@ -26,7 +27,7 @@ const theme = createTheme({
 );
 
 
-import './global.css'
+
 function App() {
   const [count, setCount] = useState(0)
 
