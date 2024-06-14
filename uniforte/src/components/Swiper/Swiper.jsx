@@ -9,7 +9,7 @@ import Recepcionista from '../../assets/Recepcionista.png';
 import Vigia from '../../assets/Vigia.png';
 import Asseio from '../../assets/asseio.png';
 import Telefonista from '../../assets/Telefonista.png';
-import Copeira from '../../assets/copeira.png'
+import Copeira from '../../assets/Copeira.png'
 
 
 export function Swipers () {

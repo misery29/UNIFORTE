@@ -61,7 +61,15 @@
 
 .logo_hora{
     position: relative;
-    padding: px;
+    }
+
+.logo_hora img{
+    margin-right: 300px;
+    }
+
+.logo{
+    position: relative;
+    margin-left: 1rem;
 }
 
 .secao_hora {
@@ -146,4 +154,39 @@
     background: #c54444;
     color: rgb(51, 51, 51);
     
+}
+
+@media (max-width: 1400px) { 
+    .logo{
+        margin-left: 2rem;
+    }
+
+    .logo_hora{
+        margin-left: 8rem;
+    }
+
+    .logo ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .logo_hora ~ .text_content p{
+        padding-right: 5rem;
+        white-space: nowrap;
+    }
+
+    .onde_estamos{
+        margin-left: -1.5rem;
+        white-space: nowrap;
+    }
+
+    .onde_estamos ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .contato_info {
+        width: 32%;
+    }
+
+
+
 }

@@ -9,8 +9,8 @@ return (
         <div className={styles.heroOverlay}>
             <img src={HeroImg} className={styles.heroImg} alt="seção hero" />
             <div className={styles.button_container}>
-                <button className={styles.hero_button1}>Fale Conosco</button>
-                <a className={styles.hero_button2}><p>Conheça-nos &rarr;</p></a>
+                <button className={styles.hero_button1}><a href="#contato">Fale Conosco</a></button>
+                <a className={styles.hero_button2} href="#quemsomos"><p>Conheça-nos &rarr;</p></a>
             </div>
         </div>
         <div className={styles.heroTextContainer}>

@@ -46,10 +46,10 @@ export function Forms() {
                         </div>
                     </div>
                     <div className={ styles.secao}>
-                        <img src= { Loc } alt="onde estamos" className= {styles.logo}/>
+                        <img src= { Loc } alt="onde estamos" className= {styles.onde_estamos}/>
                         <div className={styles.text_content}>
                             <p>ONDE ESTAMOS</p>
-                            <p>contato@uniforteservicos.com</p>
+                            <p>Rua Dom Gerardo, 64790</p>
                         </div>
                     </div>
                     <div className={ styles.secao_hora}>

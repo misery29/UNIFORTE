@@ -92,3 +92,23 @@
     top:275.2vh;
     right: 0;
     }
+
+@media(max-width: 1400px) {
+  .QuemSomosImg{
+    position: absolute;
+    top:27rem;
+    width: 450px;
+  }
+
+  .accordion{
+    position: absolute;
+    right: 2.5rem;
+    top:27rem;
+    width: 400px;
+    overflow: hidden;
+
+  }
+
+
+
+}
