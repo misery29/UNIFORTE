@@ -104,8 +104,8 @@ export function Swipers () {
                                     temporibus iste eligendi voluptate, neque praesentium quidem ullam.
                             </p>
                         </div>
-                        <div className= { styles.button_content_test }>
-                            <a href="#" className= { styles.botao_test }>botao</a>
+                        <div className= {styles.button_content_test}>
+                            <a href="#" className= {styles.botao_test}>botao</a>
                         </div> 
                     </SwiperSlide>
                 </div>

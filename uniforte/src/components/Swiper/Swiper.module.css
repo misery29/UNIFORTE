@@ -138,6 +138,11 @@
     transition: all 0.3s ease-in-out;
 }
 
+.button_content_test{
+    margin-top:2.4rem;
+
+}
+
 .botao_test:hover {
     color: rgb(255, 255, 255);
     background-color: aqua;
@@ -209,3 +214,41 @@
     top: 16rem;
  }
 
+ @media (max-width: 1400px) {
+
+    .overlay {
+            top: 2.4rem;
+            width: 18rem;
+            height: 27.2rem;
+            left:0.9rem;
+            position: absolute;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+    }
+
+
+    @media (min-width: 1401px) and (max-width: 1599px) {
+
+        .overlay {
+                top: 2.4rem;
+                width: 18rem;
+                height: 27.2rem;
+                left:2.5rem;
+                position: absolute;
+                border-radius: 10px;
+                overflow: hidden;
+            }
+            
+        }
+
+@media (min-width: 1599px) and (max-width: 1800px) {
+
+            .overlay {
+
+                    left:3.5rem;
+
+                }
+                
+            }
