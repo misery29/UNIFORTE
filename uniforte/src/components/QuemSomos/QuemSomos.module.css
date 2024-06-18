@@ -89,11 +89,11 @@
     content: "";
     position: absolute;
     z-index: -50;
-    top:275.2vh;
+    top:284.2vh;
     right: 0;
     }
 
-@media(max-width: 1400px) {
+@media(max-width: 1600px) {
   .QuemSomosImg{
     position: absolute;
     top:27rem;

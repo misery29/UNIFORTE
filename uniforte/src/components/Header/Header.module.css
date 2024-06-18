@@ -4,13 +4,14 @@
     width: 100vw;
     height: 8.5rem;
     display: grid;
-    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
     gap: 5%;
     grid-auto-flow: column;
     align-items: center;
     position: sticky;
     top: 0;
     z-index: 1000;
+    padding: 0 2.5%;
     box-shadow: 0px 6px 19px 0px rgba(0, 0, 0, 0.75);
     overflow: hidden;
   }
@@ -22,7 +23,7 @@
   .header a,.header p {
     text-decoration: none;
     color: #000000;
-    font-size: 2rem;
+    font-size: 1.8rem;
     white-space: nowrap;
 }
   
@@ -37,6 +38,11 @@
     justify-content: space-evenly;
     gap: 20%;
     grid-column: 2/3;
+    margin-left: 5rem;
+  }
+
+  .buttonContainer{
+    grid-column: 4;
   }
   
   .header button {
@@ -44,39 +50,69 @@
     border: none;
     border-radius: 0.3rem;
     padding: 1rem 1.5rem;
-    grid-column: 3;
   }
   
   .header button a {
     color: #FFFFFF;
   }
 
-  @media (max-width: 1200px) {
+  @media (min-width: 1340px) and (max-width: 1580px) {
     .header {
-        min-width: 1200px;
-        grid-template-columns: 1fr 2fr 1fr;
-        gap: 5%;
-    }
+        width: 105vw;
+        min-width: 1450px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+        padding: 0 5%;    }
 
     .header img {
-        grid-column: 1;
-    }
+        grid-column: 1;    }
 
     .header ul {
-        grid-column: 2;
+        grid-column-start: 2;
+        grid-column-end: 3;
         flex-direction: column;
         align-items: flex-start;
-        gap: 1rem;
+        gap: 5em;
         flex-direction: row;
         justify-content: space-evenly;
+        margin-left: 5%;
+
     }
 
     .header li {
         white-space: normal;
     }
 
+    .buttonContainer{
+        grid-column: 4;
+        max-width: fit-content; 
+        padding-right: 4rem; 
+            }
+
     .header button {
         background-color: #B74146;
-        grid-column: 3;
-      }
+            }
+}
+
+@media (max-width: 1339px) {
+  .header{
+    gap:1rem;
+    width: 1400px;
+    grid-template-columns: 0.5fr 1fr 0.4fr; }
+
+.header a,.header p {
+  font-size: 1.8rem;
+}
+
+.header ul{
+  gap:10%;
+  grid-column: 2;
+  margin-left: -10%;
+}
+.buttonContainer{
+  grid-column: 3;
+  max-width: fit-content;
+  padding-right: 0; 
+  padding-left: 3rem;
+}
 }

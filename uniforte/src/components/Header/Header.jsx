@@ -16,6 +16,7 @@ export function Header() {
       <ul>
         <NavItem href="#">Início</NavItem>
         <NavItem href="#servicos">Serviços</NavItem>
+        <NavItem href="#">Benefícios</NavItem>
         <NavItem href="#quemsomos">Quem Somos</NavItem>
         </ul>
         <div className={styles.buttonContainer}>

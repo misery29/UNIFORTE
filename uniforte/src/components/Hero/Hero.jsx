@@ -14,9 +14,11 @@ return (
             </div>
         </div>
         <div className={styles.heroTextContainer}>
-            <h1 className={styles.heroText}>UNIFORTE</h1>
-            <h1 className={styles.heroText}>Eficiência e praticidade</h1>{""}
+            <div className={styles.HeroTitle} >
+            <h1>UNIFORTE</h1>
+            <h1>Eficiência e praticidade</h1>{""}
             <h1>para sua operação.</h1>
+            </div>
             <p className={styles.heroText}>Experimente a tranquilidade de uma{""}</p>
             <p>operação otimizada, com soluções</p>
             <p className={styles.heroText}>pensadas para garantir a continuidade e{""}</p> 

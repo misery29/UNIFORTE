@@ -35,8 +35,8 @@ function App() {
     <>
     <Header />
     <Hero />
-    <Beneficios />
     <Swipers />
+    <Beneficios />
     <ThemeProvider theme={theme}>
       <QuemSomos/>
     </ThemeProvider>
