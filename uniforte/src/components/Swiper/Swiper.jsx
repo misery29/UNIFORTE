@@ -28,10 +28,10 @@ export function Swipers () {
                   spaceBetween: 10,
                 },
                 768: {
-                  slidesPerView: 3,
+                  slidesPerView: 4,
                   spaceBetween: 30,
                 },
-                1024: {
+                1280: {
                   slidesPerView: 4,
                   spaceBetween: 30,
                 },
@@ -60,15 +60,6 @@ export function Swipers () {
                 </div>
                 <div className={styles.card}>
                     <SwiperSlide>
-                        <p className= {styles.Title}>Vigia Noturno</p>
-                        <img className= {styles.Swiper_content} src= { Vigia } alt="Vigia Noturno" />
-                        <div className= { styles.button_content }>
-                            <a href="#" className= { styles.botao }>botao</a>
-                        </div> 
-                    </SwiperSlide>
-                </div>
-                <div className={styles.card}>
-                    <SwiperSlide>
                         <p className= {styles.Title}>Asseio e Conservação</p>
                         <img className= {styles.Swiper_content} src= { Asseio } alt="Asseio e conservação" />
                         <div className= { styles.button_content }>
@@ -91,21 +82,6 @@ export function Swipers () {
                         <img className= {styles.Swiper_content} src= { Copeira } alt="Copeira" />
                         <div className= { styles.button_content }>
                             <a href="#" className= { styles.botao }>botao</a>
-                        </div> 
-                    </SwiperSlide>
-                </div>
-                <div className={styles.card_test}>
-                    <SwiperSlide>
-                        <p className= {styles.Title_test}>teste</p>
-                        <img className= {styles.Swiper_content_test} src= { Copeira } alt="Copeira" />
-                        <div className= {styles.overlay}>
-                            <p className= {styles.text}> Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                                    Molestias nesciunt, illum, officiis illo veniam fugit repudiandae pariatur aliquid eius quisquam at consequuntur
-                                    temporibus iste eligendi voluptate, neque praesentium quidem ullam.
-                            </p>
-                        </div>
-                        <div className= {styles.button_content_test}>
-                            <a href="#" className= {styles.botao_test}>botao</a>
                         </div> 
                     </SwiperSlide>
                 </div>

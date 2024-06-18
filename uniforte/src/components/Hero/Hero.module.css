@@ -17,6 +17,7 @@
 }
 
 .heroTextContainer{
+    overflow: visible;
     position: absolute;
     top: 25rem;
     left: 10rem;
@@ -24,10 +25,14 @@
     z-index: 2;
   }
 
-  .heroText ~ p{
+  .heroTextContainer p{
     font-size: 1.5rem;
     color: white;
     font-weight: 400;
+  }
+
+  .HeroTitle h1:nth-of-type(3) {
+    margin-bottom: 2rem;
   }
 
   h1{
@@ -95,10 +100,10 @@ a{
     background: linear-gradient(to left, #666dbd, #c54444);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1530px) {
 
   .heroImg{
-    width: 1200px;
-    height: 900px;
+    width: 100vw;
+    min-width: 1530px;
 }
 }
