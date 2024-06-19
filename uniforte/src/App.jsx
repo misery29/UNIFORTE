@@ -4,7 +4,8 @@ import { Swipers } from './components/Swiper/Swiper'
 import { QuemSomos } from './components/QuemSomos/QuemSomos';
 import { Beneficios } from './components/Beneficios/Beneficios'
 import { Hero } from './components/Hero/Hero'
-import { Forms } from './components/Forms/Forms'
+import { Forms } from './components/Forms/Forms';
+import { Footer } from './components/Footer/Footer';
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/material/styles';
 import   QuemSomosBackgroundSVG  from './components/QuemSomos/QuemSomosBackGround';
@@ -45,6 +46,7 @@ function App() {
     <QuemSomosBackgroundSVG />
     <QuemSomosBackgroundSVG2 />
     <Forms />
+    <Footer />
     </>
   )
 }

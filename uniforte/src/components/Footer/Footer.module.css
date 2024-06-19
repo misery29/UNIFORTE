@@ -1,0 +1,44 @@
+.footer {
+    margin-top:8rem;
+    background-color: gray;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo_section {
+    margin-bottom: 20px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.links_section ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 20px 0;
+    display: flex;
+    gap: 15px;
+}
+
+.links_section a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links_section a:hover {
+    text-decoration: underline;
+}
+
+.copyright_section {
+    font-size: 14px;
+}
