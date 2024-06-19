@@ -6,6 +6,7 @@
 }
 
 .contato_box {
+    margin-bottom: 30%;
     height: auto;
     display: flex;
 }
@@ -129,6 +130,11 @@
     border: none;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     font-size: 20px;
+}
+
+textarea,
+input:focus {
+    outline: none;
 }
 
 .forms_contato textarea {
@@ -358,8 +364,30 @@
         width: 80%;
     }
 
-    .forms_contato input, textarea {
+    .forms_contato h2 {
+        font-size: 30px;
+        margin-bottom: 20%;
+        color: black;
+    }
+
+    .forms_contato input {
         background-color: transparent;
+        border-bottom: 2px solid rgb(189, 189, 189);
+        box-shadow: none;
+    }
+
+
+    .forms_contato textarea {
+        background-color: whitesmoke;
+        box-shadow: none;
+    }
+
+    .svg_contato {
+        display: none;
+    }
+
+    .forms_contato button{
+        background-color: #B84145;
     }
 
 }

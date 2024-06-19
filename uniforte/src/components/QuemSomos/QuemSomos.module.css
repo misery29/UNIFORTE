@@ -22,7 +22,7 @@
   .container{
     position:relative;
     width: 100vw;
-    height: 175vh;
+    height: 165vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

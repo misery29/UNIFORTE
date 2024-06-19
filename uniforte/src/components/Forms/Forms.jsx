@@ -62,10 +62,11 @@ export function Forms() {
                     </div>
                 </div>
                 <div className= { styles.forms_contato }>
-                    <h2>ENTRE EM CONTATO</h2>
+                    <h2>FALE CONOSCO</h2>
                     <form action="" onSubmit={ sendEmail }>
                         <input type="text" placeholder="Nome Completo" value={name} onChange={(e) => SetName(e.target.value)} required/>
                         <input type="email" placeholder="Email" value={email} onChange={(e) => SetEmail(e.target.value)} required/>
+                        <input type="celphone" placeholder="Telefone" value={email} onChange={(e) => SetEmail(e.target.value)} required/>
                         <textarea placeholder="Escreva o motivo do contato." value={message} onChange={(e) => SetMessage(e.target.value)} required></textarea>
                         <button type="submit">ENVIAR</button>
                     </form>
