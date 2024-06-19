@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function BackgroundSVG() {
   return (
-  <svg width="1400" height="919" viewBox="0 0 1400 919" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg width="1500" height="1000" viewBox="0 0 1400 919" fill="none" xmlns="http://www.w3.org/2000/svg">
     <g filter="url(#filter0_d_32_173)">
       <path d="M6 39C6 18.5655 22.5655 2 43 2H1357C1377.43 2 1394 18.5655 1394 39V872C1394 892.435 1377.43 909 1357 909H43C22.5654 909 6 892.435 6 872V39Z" fill="#F7F7F7" shape-rendering="crispEdges"/>
       <path d="M43 1C22.0132 1 5 18.0132 5 39V872C5 892.987 22.0132 910 43 910H1357C1377.99 910 1395 892.987 1395 872V39C1395 18.0132 1377.99 1 1357 1H43Z" stroke="url(#paint0_linear_32_173)" stroke-width="2" shape-rendering="crispEdges"/>

@@ -113,16 +113,16 @@
   .accordion{
     right: 9.5rem;
     height: 52rem;
-    top:33rem;
+    top:24.5rem;
   }
 
   .QuemSomosImg{
     position: absolute;
-    top:33rem;
+    top:24rem;
   }
 
   .content{
-    top:33rem;
+    top:24rem;
   }
 
 }
@@ -130,7 +130,7 @@
 @media(max-width: 1600px) {
   .QuemSomosImg{
     position: absolute;
-    top:25rem;
+    top:18rem;
     left: 36rem;
     width: 22rem;
     height: 37rem;
@@ -139,22 +139,32 @@
   .accordion{
     position: absolute;
     right: 9.5rem;
-    top:24.8rem;
+    top:17.8rem;
     width: 500px;
     height: 50rem;
     overflow: hidden;
-
-
   }
+
+  .content{
+    top:18rem;
+    left:10rem;
+  }
+
+  .content p{
+    font-weight: 300;
+  }
+
+
 }
 
 
 @media(max-width: 1440px) {
 
   .accordion{
-    right: 7rem;
-    height: 43rem;
-    top:30rem;
+    right: 8.5rem;
+    height: 42.8rem;
+    width: 25rem;
+    top:20rem;
   }
 
   .accordion p{
@@ -168,15 +178,19 @@
 
   .QuemSomosImg{
     position: absolute;
-    top:28rem;
-    left: 32rem;
+    top:20rem;
+    left: 33rem;
     width: 22rem;
     height: 37rem;
   }
 
   .content{
-    top:28rem;
+    top:20rem;
     left:10rem;
+  }
+
+  .content p{
+    font-weight: 300;
   }
 
   .svg_QuemSomos{
@@ -202,10 +216,10 @@
   }
 
   .accordion{
-    right: 7rem;
+    right: 8rem;
     width: 20rem;
-    height: 42.8rem;
-    top:14rem;
+    height: 41rem;
+    top:16rem;
   }
 
   .accordion p{
@@ -244,22 +258,23 @@
 
 }
 
-@media(width: 1280px) {
+@media(max-width: 1280px) and (max-height:720px) {
 
   .container{
     height: 100vh;
-    margin-left: 5rem;
+    width: 1500px;
+    right: 5rem;
   }
 
   .accordion{
-    right: 6.5rem;
-    width: 20rem;
-    height: 43rem;
-    top:10.7rem;
+    right:23rem;
+    width: 17rem;
+    height: 33rem;
+    top:4rem;
   }
 
   .accordion p{
-    font-size: 18px;
+    font-size: 13px;
   }
 
   .accordion svg{
@@ -269,70 +284,24 @@
 
   .QuemSomosImg{
     position: absolute;
-    top:12rem;
-    left: 31rem;
-    width: 22rem;
-    height: 37rem;
+    top:4.5rem;
+    left: 40rem;
+    width: 13rem;
+    height: 23rem;
   }
 
   .content{
-    top:12rem;
-    left:9rem;
-  }
-
-  .svg_QuemSomos{
-  display:none;
-    }
-
-    .svg_QuemSomos2{
-      display: block;
-      content: "";
-      position: absolute;
-      z-index: -50;
-      top:264.2vh;
-      right: -8rem;
-      }
-
-}
-
-@media(width: 1280px) and (height:800px) {
-
-  .container{
-    height: 100vh;
-    margin-left: 5rem;
-  }
-
-  .accordion{
-    right:8.5rem;
-    width: 20rem;
-    height: 39rem;
-    top:6rem;
-  }
-
-  .accordion p{
-    font-size: 17px;
-  }
-
-  .accordion svg{
-    width: 30px;
-    height: 30px;
-  }
-
-  .QuemSomosImg{
-    position: absolute;
-    top:6rem;
-    left: 31rem;
-    width: 20rem;
-    height: 35rem;
-  }
-
-  .content{
-    top:6rem;
-    left:9rem;
-  }
+    top:5rem;
+    left:24rem;  }
 
   .content p{
-    font-size: 24px;
+    font-size: 16px;
+    font-weight: 300;
+    width: 15rem;
+  }
+
+  .content h1{
+    font-size: 40px;
   }
 
   .svg_QuemSomos{
@@ -344,7 +313,7 @@
       content: "";
       position: absolute;
       z-index: -50;
-      top:284.2vh;
+      top:289.2vh;
       right: -11rem;
       }
 
