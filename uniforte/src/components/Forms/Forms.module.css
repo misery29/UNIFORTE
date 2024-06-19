@@ -44,7 +44,7 @@
     display: flex; /* Empilhar os elementos verticalmente */
     justify-content: center; /* Centralizar o conteúdo verticalmente */
     align-items: center; /* Centralizar o conteúdo horizontalmente */
-    margin: 10px; /* Espaço entre cada .secao */
+    margin: 5px; /* Espaço entre cada .secao */
 }
 
 .secao p{
@@ -132,7 +132,7 @@
 }
 
 .forms_contato textarea {
-    height: 250px;
+    height: 200px;
 }
 
 .forms_contato button {
@@ -155,6 +155,83 @@
     color: rgb(51, 51, 51);
     
 }
+
+@media (max-width: 1680px) {
+    .logo{
+        margin-left: 2rem;
+    }
+
+    .logo_hora{
+        margin-left: 4rem;
+    }
+
+    .logo ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .logo_hora ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .onde_estamos{
+        white-space: nowrap;
+    }
+
+    .onde_estamos ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .contato_info {
+        width: 32%;
+    }
+
+    .text_content {
+        font-size: 25px;
+    }
+
+    .forms_contato {
+        width: 32%;
+    }
+}
+
+@media (max-width: 1440px) {
+    .logo{
+        margin-left: 2rem;
+    }
+
+    .logo_hora{
+        margin-left: 4rem;
+    }
+
+    .logo ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .logo_hora ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .onde_estamos{
+        white-space: nowrap;
+    }
+
+    .onde_estamos ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .contato_info {
+        width: 32%;
+    }
+
+    .text_content {
+        font-size: 22px;
+    }
+
+    .forms_contato {
+        width: 32%;
+    }
+}
+
 
 @media (max-width: 1400px) { 
     .logo{
@@ -187,6 +264,105 @@
         width: 32%;
     }
 
+}
+
+@media (max-width: 1366px) {
+    .logo{
+        margin-left: 2rem;
+    }
+
+    .logo_hora{
+        margin-left: 8rem;
+    }
+
+    .logo ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .logo_hora ~ .text_content p{
+        padding-right: 5rem;
+        white-space: nowrap;
+    }
+
+    .onde_estamos{
+        margin-left: 2.8rem;
+        white-space: nowrap;
+    }
+
+    .onde_estamos ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .contato_info {
+        width: 32%;
+    }
+
+    .text_content {
+        font-size: 20px;
+    }
+
+    .forms_contato {
+        width: 32%;
+    }
+
+    .forms_contato h2 {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 1280px) { 
+    .logo{
+        margin-left:1.5rem;
+    }
+
+    .logo_hora{
+        margin-left: 7rem;
+    }
+
+    .logo ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .logo_hora ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .onde_estamos{
+        white-space: nowrap;
+        margin-left: 2rem;
+    }
+
+    .onde_estamos ~ .text_content p{
+        white-space: nowrap;
+    }
+
+    .contato_info {
+        width: 32%;
+    }
+
+    .text_content {
+        font-size: 20px;
+    }
 
 
 }
+
+
+@media (max-width: 1020px) {
+    
+    .contato_info {
+        display: none;
+    }
+
+    .forms_contato {
+        width: 80%;
+    }
+
+    .forms_contato input, textarea {
+        background-color: transparent;
+    }
+
+}
+
+
+

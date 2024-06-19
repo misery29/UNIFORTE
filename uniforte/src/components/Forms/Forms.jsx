@@ -49,7 +49,7 @@ export function Forms() {
                         <img src= { Loc } alt="onde estamos" className= {styles.onde_estamos}/>
                         <div className={styles.text_content}>
                             <p>ONDE ESTAMOS</p>
-                            <p>Rua Dom Gerardo, 64790</p>
+                            <p>Rua Dom Gerardo, 64, 7º andar</p>
                         </div>
                     </div>
                     <div className={ styles.secao_hora}>

@@ -20,7 +20,7 @@ export function QuemSomos() {
                 <p>
                     Proporcionamos sempre a excelência em soluções e qualidade no atendimento, cumprindo nossas obrigações contratuais, fiscais e trabalhistas.
                 </p>
-                </div>
+            </div>
                 <img src={QuemSomosImg} className={styles.QuemSomosImg}></img>
                 <div className={styles.accordion}>
                     <AccordionComponent />

@@ -23,18 +23,27 @@ export function Swipers () {
             navigation
             pagination={{ dynamicBullets: true}}
             breakpoints={{
+                1600: {
+                    slidesPerView: 4,
+                    spaceBetween: 30,
+                },
+
+                1280: {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                },
+
+                768: {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                },
+
                 640: {
                   slidesPerView: 2,
                   spaceBetween: 10,
                 },
-                768: {
-                  slidesPerView: 4,
-                  spaceBetween: 30,
-                },
-                1280: {
-                  slidesPerView: 4,
-                  spaceBetween: 30,
-                },
+
+               
               }}
             >
                 <div className={styles.card}>
