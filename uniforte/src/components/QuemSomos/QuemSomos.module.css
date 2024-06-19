@@ -103,6 +103,10 @@
     right: 0;
     }
 
+  .svg_QuemSomos2{
+    display: none;
+      }
+
 @media(width: 1600px) {
   .QuemSomosImg{
     position: absolute;
@@ -124,7 +128,7 @@
   }
 }
 
-@media(width: 1680px) {
+@media(width: 1680px){
 
   .accordion{
     right: 9.5rem;
@@ -186,6 +190,10 @@
 
 @media(width: 1366px) {
 
+  .container{
+    margin-left: 4rem;
+  }
+
   .accordion{
     right: 7rem;
     width: 25rem;
@@ -220,7 +228,11 @@
     position: absolute;
     z-index: -50;
     top:284.2vh;
-    right: -2.5rem;
+    right: -7.5rem;
+    }
+
+    .svg_QuemSomos2{
+      display: none;
     }
 
 }
@@ -266,6 +278,7 @@
     }
 
     .svg_QuemSomos2{
+      display: block;
       content: "";
       position: absolute;
       z-index: -50;
@@ -320,6 +333,7 @@
     }
 
     .svg_QuemSomos2{
+      display: block;
       content: "";
       position: absolute;
       z-index: -50;

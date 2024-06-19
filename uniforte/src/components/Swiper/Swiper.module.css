@@ -124,7 +124,8 @@
 
 @media (max-width: 1280px) {
     .swiper-content {
-        margin-left: 5rem;
+        margin-left: 5rem;}
+    }
 
 .botao_test{
     position: relative;
