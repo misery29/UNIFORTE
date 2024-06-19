@@ -34,10 +34,14 @@
   .background svg{
     position: absolute;
     z-index: -1;
-    width: 115rem;
-    height: 74rem;
-    top:21rem;
-    right: 1.4rem;
+    width: 85%;
+    height: 85%;
+  }
+
+  .background{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .content{
@@ -46,7 +50,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     width: 350px;
-    left: 6rem;
+    left: 12rem;
     top:25rem;
   }
 
@@ -55,34 +59,40 @@
   }
 
   .content p{
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 500;
   }
 
   .content h1{
-    font-size: 4rem;
+    font-size: 3.6rem;
     font-weight: 500;
   }
 
   .accordion{
     position: absolute;
-    right: 8rem;
+    right: 13rem;
     top:27rem;
-    width: 400px;
+    width: 28rem;
+    height: 56rem;
     overflow: hidden;
 
   }
 
   .QuemSomosImg{
     position: absolute;
-    top:27rem;
-    width: 600px;
+    top:25rem;
+    width: 28rem;
   }
 
   .SVGContainer{
     position: relative;
     overflow: visible;
 
+  }  
+
+  .SVGContainer2{
+    position: relative;
+    overflow: visible;
   }  
 
   .svg_QuemSomos{
@@ -93,22 +103,228 @@
     right: 0;
     }
 
-@media(max-width: 1600px) {
+@media(width: 1600px) {
   .QuemSomosImg{
     position: absolute;
-    top:27rem;
-    width: 450px;
+    top:25rem;
+    left: 36rem;
+    width: 22rem;
+    height: 37rem;
   }
 
   .accordion{
     position: absolute;
-    right: 2.5rem;
-    top:27rem;
-    width: 400px;
+    right: 9.5rem;
+    top:24.8rem;
+    width: 500px;
+    height: 50rem;
     overflow: hidden;
 
+
+  }
+}
+
+@media(width: 1680px) {
+
+  .accordion{
+    right: 9.5rem;
+    height: 52rem;
+    top:33rem;
   }
 
+  .QuemSomosImg{
+    position: absolute;
+    top:33rem;
+  }
 
+  .content{
+    top:33rem;
+  }
+
+}
+
+@media(width: 1440px) {
+
+  .accordion{
+    right: 7rem;
+    height: 43rem;
+    top:30rem;
+  }
+
+  .accordion p{
+    font-size: 20px;
+  }
+
+  .accordion svg{
+    width: 40px;
+    height: 40px;
+  }
+
+  .QuemSomosImg{
+    position: absolute;
+    top:28rem;
+    left: 32rem;
+    width: 22rem;
+    height: 37rem;
+  }
+
+  .content{
+    top:28rem;
+    left:10rem;
+  }
+
+  .svg_QuemSomos{
+    content: "";
+    position: absolute;
+    z-index: -50;
+    top:284.2vh;
+    right: -2.5rem;
+    }
+
+}
+
+
+@media(width: 1366px) {
+
+  .accordion{
+    right: 7rem;
+    width: 25rem;
+    height: 42.8rem;
+    top:21rem;
+  }
+
+  .accordion p{
+    font-size: 20px;
+  }
+
+  .accordion svg{
+    width: 40px;
+    height: 40px;
+  }
+
+  .QuemSomosImg{
+    position: absolute;
+    top:21rem;
+    left: 31rem;
+    width: 22rem;
+    height: 37rem;
+  }
+
+  .content{
+    top:21rem;
+    left:9rem;
+  }
+
+  .svg_QuemSomos{
+    content: "";
+    position: absolute;
+    z-index: -50;
+    top:284.2vh;
+    right: -2.5rem;
+    }
+
+}
+
+@media(width: 1280px) {
+
+  .container{
+    height: 100vh;
+    margin-left: 5rem;
+  }
+
+  .accordion{
+    right: 6.5rem;
+    width: 20rem;
+    height: 43rem;
+    top:10.7rem;
+  }
+
+  .accordion p{
+    font-size: 18px;
+  }
+
+  .accordion svg{
+    width: 30px;
+    height: 30px;
+  }
+
+  .QuemSomosImg{
+    position: absolute;
+    top:12rem;
+    left: 31rem;
+    width: 22rem;
+    height: 37rem;
+  }
+
+  .content{
+    top:12rem;
+    left:9rem;
+  }
+
+  .svg_QuemSomos{
+  display:none;
+    }
+
+    .svg_QuemSomos2{
+      content: "";
+      position: absolute;
+      z-index: -50;
+      top:264.2vh;
+      right: -8rem;
+      }
+
+}
+
+@media(width: 1280px) and (height:800px) {
+
+  .container{
+    height: 100vh;
+    margin-left: 5rem;
+  }
+
+  .accordion{
+    right:8.5rem;
+    width: 20rem;
+    height: 39rem;
+    top:6rem;
+  }
+
+  .accordion p{
+    font-size: 17px;
+  }
+
+  .accordion svg{
+    width: 30px;
+    height: 30px;
+  }
+
+  .QuemSomosImg{
+    position: absolute;
+    top:6rem;
+    left: 31rem;
+    width: 20rem;
+    height: 35rem;
+  }
+
+  .content{
+    top:6rem;
+    left:9rem;
+  }
+
+  .content p{
+    font-size: 24px;
+  }
+
+  .svg_QuemSomos{
+  display:none;
+    }
+
+    .svg_QuemSomos2{
+      content: "";
+      position: absolute;
+      z-index: -50;
+      top:284.2vh;
+      right: -11rem;
+      }
 
 }

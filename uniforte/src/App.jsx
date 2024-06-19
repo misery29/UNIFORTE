@@ -8,6 +8,8 @@ import { Forms } from './components/Forms/Forms'
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/material/styles';
 import   QuemSomosBackgroundSVG  from './components/QuemSomos/QuemSomosBackGround';
+import   QuemSomosBackgroundSVG2  from './components/QuemSomos/QuemSomosBackGroundSVG2';
+
 import './global.css'
 
 const theme = createTheme({
@@ -41,6 +43,7 @@ function App() {
       <QuemSomos/>
     </ThemeProvider>
     <QuemSomosBackgroundSVG />
+    <QuemSomosBackgroundSVG2 />
     <Forms />
     </>
   )

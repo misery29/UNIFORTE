@@ -25,7 +25,7 @@ export function AccordionComponent() {
                     aria-controls="panel1a-content"
                     id="panel1a-header"
                 >
-                    <Typography>Nossa missão</Typography>
+                    <Typography sx={{ fontSize: 36}}>Nossa missão</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography sx={{ fontSize: 20,color: '#000000', fontWeight: '400', }}>
@@ -39,7 +39,7 @@ export function AccordionComponent() {
                     aria-controls="panel2a-content"
                     id="panel2a-header"
                 >
-                    <Typography>Organização e Estrutura</Typography>
+                    <Typography sx={{ fontSize: 36}}>Organização e Estrutura</Typography>
                 </AccordionSummary>
                 <AccordionDetails >
                     <Typography sx={{ fontSize: 20,color: '#000000', fontWeight: '400', }}>
@@ -53,7 +53,7 @@ export function AccordionComponent() {
                     aria-controls="panel3a-content"
                     id="panel3a-header"
                 >
-                    <Typography>Integridade e Transparência</Typography>
+                    <Typography sx={{ fontSize: 36}}>Integridade e Transparência</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography sx={{ fontSize: 20,color: '#000000', fontWeight: '400', }}>
@@ -67,7 +67,7 @@ export function AccordionComponent() {
                     aria-controls="panel4a-content"
                     id="panel4a-header"
                 >
-                    <Typography>Valores</Typography>
+                    <Typography sx={{ fontSize: 36}}>Valores</Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography sx={{ fontSize: 20,color: '#000000', fontWeight: '400', }}>
