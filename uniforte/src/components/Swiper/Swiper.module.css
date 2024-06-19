@@ -126,6 +126,11 @@
     .swiper-content {
         margin-left: 5rem;
     }
+    .Title {
+        font-size: 22px;}
+
+        .Swiper_conteiner h1 {
+            font-size: 36px;}
 }
 
 .botao_test{

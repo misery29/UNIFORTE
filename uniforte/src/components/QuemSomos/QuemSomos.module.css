@@ -269,8 +269,8 @@
   .accordion{
     right:23rem;
     width: 17rem;
-    height: 33rem;
-    top:4rem;
+    height: 31.5rem;
+    top:3.1rem;
   }
 
   .accordion p{
@@ -313,7 +313,7 @@
       content: "";
       position: absolute;
       z-index: -50;
-      top:289.2vh;
+      top:335.2vh;
       right: -11rem;
       }
 

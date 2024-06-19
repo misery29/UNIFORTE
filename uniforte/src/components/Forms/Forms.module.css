@@ -6,7 +6,6 @@
 }
 
 .contato_box {
-    margin-bottom: 30%;
     height: auto;
     display: flex;
 }
@@ -350,9 +349,7 @@ input:focus {
         font-size: 20px;
     }
 
-
 }
-
 
 @media (max-width: 1020px) {
     

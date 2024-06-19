@@ -26,7 +26,7 @@ export function Beneficios() {
                 </div>
                 <div className={styles.benefit}>
                     <div className={styles.icon}><CrisisAlertOutlinedIcon sx={{ fontSize: 36,color: '#000000', }}/></div>
-                    <p>Foco no Core Business</p>
+                    <p>Foco na atividade fim</p>
                 </div>
                 <div className={styles.benefit}>
                     <div className={styles.icon}><RemoveCircleOutlineOutlinedIcon sx={{ fontSize: 40,color: '#000000', }}/></div>
