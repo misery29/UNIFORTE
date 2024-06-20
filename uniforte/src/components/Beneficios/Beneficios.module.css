@@ -80,6 +80,27 @@
     }
 }
 
+@media(max-width: 1020px) {
+.benefitsGrid p{
+    font-size: 1.5rem;
+}
+
+     .icon svg{
+    width: 3rem;
+    height: 3rem;
+}   
+
+.description {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.container {
+    margin-top: 20rem;
+}
+
+}
+
 @media (max-width: 768px) {
     .benefitsGrid {
         grid-template-columns: 1fr;
