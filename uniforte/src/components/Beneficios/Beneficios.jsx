@@ -11,6 +11,9 @@ import SchoolOutlinedIcon from '@mui/icons-material/SchoolOutlined';
 export function Beneficios() {
     return (
         <div className={styles.container}>
+            <div className={styles.ref} >
+                <p id='beneficios'></p>
+            </div>
             <p className={styles.description}>
                 Descubra como nossos serviços podem transformar a gestão do seu negócio,<br></br>
                 proporcionando a tranquilidade e a eficiência que você merece.
@@ -38,7 +41,6 @@ export function Beneficios() {
                 </div>
                 <div className={styles.benefit}>
                     <div className={styles.icon}><TrendingUpOutlinedIcon sx={{ fontSize: 40,color: '#000000', }}/></div>
-                    <p id="servicos">Maior Eficiência Operacional</p>
                 </div>
             </div>
         </div>

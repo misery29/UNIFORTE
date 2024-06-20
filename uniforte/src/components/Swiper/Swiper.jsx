@@ -15,6 +15,9 @@ import Copeira from '../../assets/Copeira.png'
 export function Swipers () {
     return (
         <div className={styles.Swiper_conteiner}>
+        <div className={styles.ref}>
+            <p id="servicos">Maior Eficiência Operacional</p>
+        </div>
             <h1>Nossos Serviços</h1>
             <Swiper
             modules={[Navigation, Pagination]}
@@ -107,8 +110,7 @@ export function Swipers () {
                     <path d="M556 0L921 206.5H199.5L556 0Z" fill="#151515" fill-opacity="0.25"/>
                 </svg>
             </div>
-            <p id='quemsomos' className={styles.ref}>QUEMSOMOS</p>
-        </div>
+            </div>
         
       );
 };

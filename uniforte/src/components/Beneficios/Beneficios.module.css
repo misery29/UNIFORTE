@@ -4,6 +4,11 @@
     margin-top: 25vh;
 }
 
+.ref{
+    position:absolute;
+    top:114rem;
+}
+
 .description {
     font-size: 2.4rem;
     margin-bottom: 6rem;
@@ -37,17 +42,22 @@
     align-items: center;
 }
 
+@media(max-width: 1366px) {
+    .description {
+        font-size: 1.8rem;
+        font-weight: 300;
+    }
 
-@media (max-width: 768px) {
-    .benefitsGrid {
-        grid-template-columns: 1fr;
+    .container {
+        text-align: center;
+        margin: 2rem;
+        margin-top: 16rem;
+        margin-bottom: 8rem;
     }
-    .icon {
-        width: 3rem;
-        height: 3rem;
-    }
-    p {
-        font-size: 0.9rem;
+
+    .benefitsGrid{
+    font-size: 1.5rem;
+
     }
 }
 
@@ -67,5 +77,18 @@
     .benefitsGrid{
     font-size: 1.5rem;
 
+    }
+}
+
+@media (max-width: 768px) {
+    .benefitsGrid {
+        grid-template-columns: 1fr;
+    }
+    .icon {
+        width: 3rem;
+        height: 3rem;
+    }
+    p {
+        font-size: 0.9rem;
     }
 }

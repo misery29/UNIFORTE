@@ -1,0 +1,35 @@
+.drawerContainer {
+    align-items: center;
+    justify-content: space-between;
+    display:none;
+  }
+  
+  .header {
+    overflow:visible;
+    width: 100%;
+    height:6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right:16px;
+    background-color: #f5f5f5;
+  }
+
+  .header svg {
+    width: 3rem;
+    height:3rem;
+  }
+  
+  .UniforteLogo {
+    flex-direction:flex-start;
+    margin-right:5rem;
+    height: 5rem;
+  }
+
+  
+  @media (max-width: 1020px) {
+    
+    .drawerContainer{
+        display:flex;
+    }
+  }
