@@ -339,8 +339,8 @@
 
 .container {
   margin: 0;
-  margin-bottom: -18rem;
-  height: 130vh;
+  margin-bottom: -25rem;
+  height: 179.5vh;
   align-items: center;
   text-align: center;
   justify-content: center;
@@ -380,11 +380,12 @@
 }
 
 .accordion{
-    position: relative;
+    position:absolute;
     left: 12px;
     width: 95%;
-    height: 70rem;
-    top: 3rem;
+    height:50rem;
+    top: 47rem;
+    z-index:500;
   }
 
   .accordion p {
