@@ -315,26 +315,32 @@ input:focus {
     }
 }
 
-@media (max-width: 1280px) { 
+@media (max-width: 1280px) {
+
     .logo{
         margin-left:1.5rem;
+        width: 10%;
     }
 
     .logo_hora{
-        margin-left: 7rem;
+        margin-left: 6.5rem;
+        width: 8%;
     }
 
     .logo ~ .text_content p{
         white-space: nowrap;
+        font-size: 17px;
     }
 
     .logo_hora ~ .text_content p{
         white-space: nowrap;
+        font-size: 16px;
     }
 
     .onde_estamos{
         white-space: nowrap;
         margin-left: 2rem;
+        width: 10%;
     }
 
     .onde_estamos ~ .text_content p{
@@ -342,13 +348,45 @@ input:focus {
     }
 
     .contato_info {
-        width: 32%;
+        top: 5rem;
+        width: 30%;
+        height: 25rem;
     }
 
-    .text_content {
-        font-size: 20px;
+    .contato_info p{
+        font-size: 1rem;
     }
 
+
+    .text_content p{
+        font-size: 17px;
+    }
+
+    .forms_contato {
+        margin-top: 14rem;
+        width: 31%;
+    }
+
+    .forms_contato h2 {
+        margin-bottom: 30px;
+        font-size: 24px;
+    }
+
+    .forms_contato input {
+        font-size: 15px;
+        height: 2.3rem;
+    }
+
+    .forms_contato textarea {
+        height: 9rem;
+        font-size: 15px;
+    }
+
+    .forms_contato button{
+        height: 40px;
+        font-size: 15px;
+        width: 30%;
+    }
 }
 
 @media (max-width: 1020px) {

@@ -120,10 +120,26 @@
 @media(max-width: 1280px) and (max-height:720px) {
   .header{
     gap:1rem;
-    width: 1280px;
-    grid-template-columns: 0.5fr 1fr 0.4fr; }
-
-.header a,.header p {
-  font-size: 1.5rem;
+    width: 100vw;
+    grid-template-columns: 0.5fr 1fr 0.4fr;
+    height: 7vw; 
 }
+
+  .header img {
+  width: 55%;
+}
+
+  .header a,.header p {
+  font-size: 20px;
+}
+
+.header button {
+  width: 100%;
+  padding: 10% 1.3rem;
+}
+
+.header button a{
+  font-size: 19px;
+}
+
 }

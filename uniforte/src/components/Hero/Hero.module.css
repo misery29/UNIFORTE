@@ -66,12 +66,13 @@ a{
 }
 
 .hero_button1 {
-    background: linear-gradient(90deg, #c54444, #666dbd);
+    background-image: linear-gradient(90deg, #c54444, #666dbd);
     color: white;
+    transition: 0.6s ease-in-out;
 }
 
 .hero_button1:hover {
-    background: linear-gradient(90deg, #666dbd, #c54444);
+    background-image: linear-gradient(90deg, #666dbd, #c54444);
 }
 
 .hero_button2 {
@@ -83,16 +84,21 @@ a{
     border-image: linear-gradient(90deg, #666dbd, #c54444) 1;
     border: 2px solid;
     border-radius: 5px;
+    transition: 0.3s ease-in-out;
 }
 
 .hero_button2 p {
     margin: 0;
     color: white;
-
+    transition: 0.3s ease-in-out;
 }
 
 .hero_button2:hover {
-    color: white;
+    color: #c54444;
+}
+
+.hero_button2:hover p {
+  color: #c54444;
 }
 
 .hero_button2:hover::before {
@@ -113,4 +119,39 @@ a{
   .heroImg{
     min-height:40rem ;
   }
+
+  .heroTextContainer{
+    overflow: visible;
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+    width: 45rem;
+    z-index: 2;
+  }
+
+  .heroTextContainer p{
+    font-size: 1.4rem;
+    color: white;
+    font-weight: 300;
+  }
+
+  .heroTextContainer h1{
+    font-size: 2.6rem;
+    color: white;
+    font-weight: 700;
+  }
+
+  .button_container {
+    top: 90%;
+  }
+
+
+  .hero_button2 {
+    padding: 0.6rem 1rem;
+  }
+
+  .button_container a, p{
+    font-size: 20px;
+  }
 }
+

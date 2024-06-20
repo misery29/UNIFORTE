@@ -18,7 +18,7 @@ export function Header() {
         <NavItem href="#servicos">Serviços</NavItem>
         <NavItem href="#">Benefícios</NavItem>
         <NavItem href="#quemsomos">Quem Somos</NavItem>
-        </ul>
+      </ul>
         <div className={styles.buttonContainer}>
             <button>
                 <p>

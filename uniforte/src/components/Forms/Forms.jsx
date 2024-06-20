@@ -55,7 +55,7 @@ export function Forms() {
                     <div className={ styles.secao_hora}>
                         <img src= { Hora } alt="horario" className= {styles.logo_hora}/>
                         <div className={styles.text_content}>
-                            <p >HORARIO DE FUNCIONAMENTO</p>
+                            <p>HORARIO DE FUNCIONAMENTO</p>
                             <span>Segunda - Sexta</span><br />
                             <p>08:00 - 19:00</p>
                         </div>
