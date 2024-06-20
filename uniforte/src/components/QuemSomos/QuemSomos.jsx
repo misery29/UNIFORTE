@@ -10,6 +10,9 @@ import QuemSomosImg from "../../assets/QuemSomosImg.png";
 export function QuemSomos() {
     return (
         <div className={styles.container}>
+            <div className={styles.ref}>
+            <p id='quemsomos'>QUEMSOMOS</p>
+            </div>
             <div className={styles.desktop}>
                     <div className={styles.content}>
                         <h1>QUEM<br></br>SOMOS<br></br>NÓS</h1>

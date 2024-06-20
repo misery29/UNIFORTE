@@ -34,6 +34,12 @@
     overflow: hidden;
     margin-top: 2rem;
   }
+
+  .ref{
+    opacity:0;
+    position:absolute;
+    top:10rem;
+  }
   
   .background svg{
     position: absolute;
@@ -252,7 +258,7 @@
     content: "";
     position: absolute;
     z-index: -50;
-    top:284.2vh;
+    top:293.2vh;
     right: -7.5rem;
     }
 

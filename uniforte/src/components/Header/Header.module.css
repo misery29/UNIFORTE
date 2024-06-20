@@ -143,3 +143,10 @@
 }
 
 }
+
+@media (max-width: 1020px) {
+  
+  .header{
+    display:none;
+  }
+}

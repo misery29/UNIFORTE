@@ -6,6 +6,7 @@ import { Beneficios } from './components/Beneficios/Beneficios'
 import { Hero } from './components/Hero/Hero'
 import { Forms } from './components/Forms/Forms';
 import { Footer } from './components/Footer/Footer';
+import { MobileDrawer } from './components/MobileDrawer/MobileDrawer';
 import { createTheme } from '@mui/material/styles';
 import { ThemeProvider } from '@mui/material/styles';
 import   QuemSomosBackgroundSVG  from './components/QuemSomos/QuemSomosBackGround';
@@ -37,6 +38,7 @@ function App() {
   return (
     <>
     <Header />
+    <MobileDrawer />
     <Hero />
     <Swipers />
     <Beneficios />
