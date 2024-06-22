@@ -1,4 +1,5 @@
 .container {
+
     text-align: center;
     margin: 2rem;
     margin-top: 25vh;
@@ -42,28 +43,85 @@
     align-items: center;
 }
 
-@media(max-width: 1366px) {
+
+@media(max-width: 1600px) and (max-height: 900px){
+    .icon {
+        width: 4rem;
+        height: 4rem;
+        background-color: #d3d3d3;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .description {
-        font-size: 1.8rem;
-        font-weight: 300;
+        font-size: 2.2rem;
+        margin-bottom: 5rem;
+        padding-top: 3%;
+        font-weight: 400;
     }
+    
 
-    .container {
-        text-align: center;
-        margin: 2rem;
-        margin-top: 16rem;
-        margin-bottom: 8rem;
-    }
-
-    .benefitsGrid{
-    font-size: 1.5rem;
-
+    .benefitsGrid {
+        font-size: 24px;
     }
 }
 
+@media(max-width: 1440px){
+    .icon {
+        width: 4rem;
+        height: 4rem;
+        background-color: #d3d3d3;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description {
+        font-size: 2.2rem;
+        margin-bottom: 5rem;
+        padding-top: 3%;
+        font-weight: 400;
+    }
+    
+
+    .benefitsGrid {
+        font-size: 1rem;
+    }
+}
+
+
+@media(max-width: 1366px) {
+    .icon {
+        width: 2.5rem;
+        height: 2.5rem;
+        background-color: #d3d3d3;
+        margin-bottom: 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .description {
+        font-size: 1.9rem;
+        margin-bottom: 5rem;
+        padding-top: 1%;
+        font-weight: 400;
+    }
+    
+
+    .benefitsGrid p{
+        font-size: 18px;
+    }
+}
+    
+
+
 @media(max-width: 1280px) and (max-height:720px) {
     .description {
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         font-weight: 300;
     }
 
@@ -74,10 +132,15 @@
         margin-bottom: 8rem;
     }
 
-    .benefitsGrid{
-    font-size: 1.5rem;
+    .benefitsGrid p{
+        font-size: 1.1rem;
 
     }
+
+    .icon svg{
+        width:2rem;
+        height: 2rem;
+    }  
 }
 
 @media(max-width: 1020px) {

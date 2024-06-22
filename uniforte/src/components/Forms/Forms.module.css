@@ -199,6 +199,57 @@ input:focus {
     }
 }
 
+@media(max-width: 1600px) and (max-height: 900px){
+
+    .logo{
+        margin-left: 2rem;
+    }
+
+    .logo_hora{
+        margin-left: 4rem;
+    }
+
+    .logo ~ .text_content p{
+        font-size: 19px;
+        white-space: nowrap;
+    }
+
+    .logo_hora ~ .text_content p{
+        font-size: 19px;
+        white-space: nowrap;
+    }
+
+    .onde_estamos{
+        width: 20%;
+        margin-left: 3rem;
+        white-space: nowrap;
+    }
+    
+    .text_content p{
+        font-size: 19px;
+        white-space: nowrap;
+    }
+
+    .contato_info {
+        width: 28%;
+        height: 50%;
+    }
+
+    .text_content {
+        font-size: 19px;
+    }
+
+    .forms_contato {
+        margin-top: 15%;
+        width: 28%;
+    }
+
+    .forms_contato h2 {
+        font-size: 35px;
+    }
+}
+
+
 @media (max-width: 1440px) {
     .logo{
         margin-left: 2rem;

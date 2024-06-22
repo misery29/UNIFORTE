@@ -90,6 +90,7 @@
 
   .QuemSomosImg{
     position: absolute;
+    left: 42rem;
     top:25rem;
     width: 28rem;
   }
@@ -121,14 +122,19 @@
 @media(max-width: 1680px){
 
   .accordion{
+    width: 27rem;
     right: 9.5rem;
     height: 52rem;
     top:24.5rem;
   }
 
+  .accordion p{
+    font-size: 25px;
+  }
+
   .QuemSomosImg{
     position: absolute;
-    top:24rem;
+    left: 37rem;
   }
 
   .content{
@@ -138,25 +144,34 @@
 }
 
 @media(max-width: 1600px) {
+
+  .container {
+    height: 115vh;
+  }
+  
   .QuemSomosImg{
     position: absolute;
-    top:18rem;
-    left: 36rem;
-    width: 22rem;
-    height: 37rem;
+    top:10rem;
+    left: 35rem;
+    width: 26rem;
+    height: 42rem;
   }
 
   .accordion{
-    position: absolute;
-    right: 9.5rem;
-    top:17.8rem;
-    width: 500px;
-    height: 50rem;
+    right: 9rem;
+    top:9rem;
+    width: 27%;
+    height: 46rem;
     overflow: hidden;
   }
 
+  .accordion p {
+    font-size: 20px;
+  }
+
   .content{
-    top:18rem;
+    width: 24%;
+    top:10rem;
     left:10rem;
   }
 
@@ -164,17 +179,67 @@
     font-weight: 300;
   }
 
+  .content h1 {
+    font-size: 60px;
+    font-weight: 500;
+  }
+
 
 }
 
+@media(max-width: 1600px) and (max-height: 900px){
+
+  .container {
+    right:8rem;
+    height: 100vh;
+    width: 115vw;
+  }
+  
+  .QuemSomosImg{
+    position: absolute;
+    top:8rem;
+    left: 41%;
+    width: 17%;
+    height: 32rem;
+  }
+
+  .accordion{
+    right: 27rem;
+    top:7rem;
+    width: 17%;
+    height: 77%;
+    overflow: hidden;
+  }
+
+  .accordion p {
+    font-size: 15px;
+  }
+
+  .content{
+    width: 15%;
+    top:8rem;
+    left:25%;
+  }
+
+  .content p{
+    font-weight: 300;
+    font-size: 22px;
+  }
+
+  .content h1 {
+    font-size: 45px;
+    font-weight: 500;
+  }
+
+}
 
 @media(max-width: 1440px) {
 
   .accordion{
     right: 8.5rem;
     height: 42.8rem;
-    width: 25rem;
-    top:20rem;
+    width: 23rem;
+    top:13rem;
   }
 
   .accordion p{
@@ -188,18 +253,19 @@
 
   .QuemSomosImg{
     position: absolute;
-    top:20rem;
+    top:14rem;
     left: 33rem;
     width: 22rem;
     height: 37rem;
   }
 
   .content{
-    top:20rem;
+    top: 14rem;
     left:10rem;
   }
 
   .content p{
+    font-size: 25px;
     font-weight: 300;
   }
 
@@ -217,68 +283,58 @@
 @media(max-width:1366px) {
 
   .container{
-    margin-left: 1rem;
+    width: 120vw;
+    margin-left: 8rem;
   }
 
   .content p {
-    width: 20rem;
-    font-size: 22px;
-  }
-
-  .accordion{
-    right: 8rem;
-    width: 20rem;
-    height: 41rem;
-    top:16rem;
-  }
-
-  .accordion p{
+    width: 15rem;
     font-size: 18px;
   }
 
+  .accordion{
+    right: 25rem;
+    width: 17rem;
+    height: 20rem;
+    top:4rem;
+  }
+
+  .accordion p{
+    font-size: 14px;
+  }
+
   .accordion svg{
-    width: 40px;
-    height: 40px;
+    width: 1px;
+    height: 1px;
   }
 
   .QuemSomosImg{
     position: absolute;
-    top:16rem;
-    left: 31rem;
-    width: 22rem;
-    height: 32rem;
+    top:6rem;
+    left: 40rem;
+    width: 16rem;
+    height: 28rem;
   }
 
   .content{
-    top:16rem;
-    left:9rem;
+    width: 10%;
+    top:6rem;
+    left:25rem;
   }
-
-  .svg_QuemSomos{
-    content: "";
-    position: absolute;
-    z-index: -50;
-    top:293.2vh;
-    right: -7.5rem;
-    }
-
-    .svg_QuemSomos2{
-      display: none;
-    }
 
 }
 
 @media(max-width: 1280px) and (max-height:720px) {
 
   .container{
-    height: 110vh;
+    height: 100vh;
     width: 100vw;
   }
 
   .accordion{
-    right:14rem;
+    right:12rem;
     width: 15rem;
-    height: 32rem;
+    height: 29rem;
     top:4rem;
   }
 
@@ -294,9 +350,9 @@
 
   .QuemSomosImg{
     position: absolute;
-    top:5rem;
+    top:4rem;
     left: 40%;
-    width: 16rem;
+    width: 14rem;
     height: 27rem;
   }
 
@@ -305,9 +361,9 @@
     left:15rem;  }
 
   .content p{
-    font-size: 18px;
-    font-weight: 300;
-    width: 14rem;
+    font-size: 16px;
+    font-weight: 400;
+    width: 13rem;
   }
 
   .content h1{
@@ -337,64 +393,63 @@
     display: none;
 }
 
-.container {
-  margin: 0;
-  margin-bottom: -25rem;
-  height: 179.5vh;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
-.mobile {
-  left: 5%;
-  display: inline-block;
-  width: 100%;
-  height: 150vh;
-  text-align: center;
-  align-items: center;
-}
-
-.content_mobile {
-  padding: 30px;
-  padding-top: 100px;
-  justify-content: center;
-  text-align: center;
-  width: 100%;
-  background-image: url(../../assets/quem_somos.png);
-  background-repeat: no-repeat;
-  height: 40rem;
-}
-
-.content_mobile p{
-  font-size: 25px;
-  color: #e0e0e0;
-}
-
-.content_mobile h1 {
-  text-align: center;
-  font-size: 40px;
-  font-weight: 600;
-  color: #e0e0e0;
-  margin-bottom: 30px;
-}
-
-.accordion{
-    position:absolute;
-    left: 12px;
-    width: 95%;
-    height:50rem;
-    top: 47rem;
-    z-index:500;
+  .container {
+    margin-left: 22%;
+    margin-bottom: -25rem;
+    height: 179.5vh;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
   }
 
-  .accordion p {
-    font-size: 17px;
+  .mobile {
+    display: inline-block;
+    width: 80%;
+    height: 150vh;
+    text-align: center;
+    align-items: center;
   }
 
-
-  .accordion svg{
-    width: 30px;
-    height: 30px;
+  .content_mobile {
+    padding: 15px;
+    padding-top: 100px;
+    justify-content: center;
+    text-align: center;
+    width: 105%;
+    background-image: url(../../assets/quem_somos.png);
+    background-repeat: no-repeat;
+    height: 40rem;
   }
-}
+
+  .content_mobile p{
+    font-size: 25px;
+    color: #e0e0e0;
+  }
+
+  .content_mobile h1 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    color: #e0e0e0;
+    margin-bottom: 30px;
+  }
+
+  .accordion{
+      position:absolute;
+      left: 3rem;
+      width: 80%;
+      height:50rem;
+      top: 47rem;
+      z-index:500;
+    }
+
+    .accordion p {
+      font-size: 17px;
+    }
+
+
+    .accordion svg{
+      width: 30px;
+      height: 30px;
+    }
+  }

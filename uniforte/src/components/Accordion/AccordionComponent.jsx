@@ -27,7 +27,7 @@ export function AccordionComponent() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{ fontSize: 20, color: '#000000', fontWeight: '400' }}>
-            Atender as expectativas dos nossos clientes, através de profissionais qualificados e prestar um excelente trabalho de forma transparente, tendo como ideal a lealdade e o sigilo absoluto, com nossas alianças empresariais e funcionários.
+          Atender as expectativas dos nossos clientes, através de profissionais qualificados e prestar um excelente trabalho de forma transparente, tendo como ideal a lealdade e o sigilo absoluto, com nossas alianças empresariais e funcionários.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -42,13 +42,11 @@ export function AccordionComponent() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{ fontSize: 20, color: '#000000', fontWeight: '400' }}>
-            Trabalhamos na gestão das atividades-meios, possibilitando ao cliente dedicação e foco no seu próprio negócio.
+          • Trabalhamos na gestão das atividades-meios, possibilitando ao cliente dedicação e foco no seu próprio negócio.
             <br />
+            • Fiscalizamos todos os postos em que prestamos serviços, com avaliações periódicas de desempenho, boletins de visita e avaliação de qualidade de serviço prestado.
             <br />
-            Fiscalizamos todos os postos em que prestamos serviços, com avaliações periódicas de desempenho, boletins de visita e avaliação de qualidade de serviço prestado.
-            <br />
-            <br />
-            Plantão permanente de reservas para atendimentos de substituição, com atendimento telefônico e sistema de rádio para contato com nossos supervisores e coordenadores, dispondo de viaturas para atendimento emergencial.
+            • Plantão permanente de reservas para atendimentos de substituição, com atendimento telefônico e sistema de rádio para contato com nossos supervisores e coordenadores, dispondo de viaturas para atendimento emergencial.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -63,13 +61,11 @@ export function AccordionComponent() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{ fontSize: 20, color: '#000000', fontWeight: '400' }}>
-            Terceirizar não é apenas entregar à outra entidade a guarda de seu patrimônio, é, sobretudo:
+          •Terceirizar não é apenas entregar à outra entidade a guarda de seu patrimônio, é, sobretudo:
             <br />
+            •Obter mais produtividade em seu próprio negócio, e ganhar com transferências das responsabilidades de toda possível ocorrência.
             <br />
-            Obter mais produtividade em seu próprio negócio, e ganhar com transferências das responsabilidades de toda possível ocorrência.
-            <br />
-            <br />
-            Lucrar com a passagem das responsabilidades trabalhistas para o contratado, se livrando da co-responsabilidade, sobre as guias dos impostos mensalmente.
+            •Lucrar com a passagem das responsabilidades trabalhistas para o contratado, se livrando da co-responsabilidade, sobre as guias dos impostos mensalmente.
           </Typography>
         </AccordionDetails>
       </Accordion>
@@ -84,16 +80,13 @@ export function AccordionComponent() {
         </AccordionSummary>
         <AccordionDetails>
           <Typography sx={{ fontSize: 20, color: '#000000', fontWeight: '400' }}>
-            Trabalhar em equipe.
+            •Trabalhar em equipe.
             <br />
+            •Colocando as necessidades de nossos clientes em primeiro plano.
             <br />
-            Colocando as necessidades de nossos clientes em primeiro plano.
-            <br />
-            <br />
-            Conduzindo as nossas ações de forma íntegra, conforme a moral e a ética.
-            <br />
-            <br />
-            Estamos em desenvolvimento em meio ao habitat empreendedor!
+            •Conduzindo as nossas ações de forma íntegra, conforme a moral e a ética.
+            <br/>
+            •Estamos em desenvolvimento em meio ao habitat empreendedor!
           </Typography>
         </AccordionDetails>
       </Accordion>
