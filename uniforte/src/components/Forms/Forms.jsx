@@ -30,7 +30,7 @@ export function Forms() {
     }
 
     return (
-        <div className= { styles.Main_contato } id="contato">
+        <div className= { styles.Main_contato }>
             <div className= { styles.contato_svg }>
                 <svg className= {styles.svg_contato} width="1400" height="1000" viewBox="0 200 1400 500" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M1450.66 1360.93L-165 45.5214L1878.93 -678L1450.66 1360.93Z" fill= '#2e3f94' fill-opacity=""/>
@@ -68,7 +68,7 @@ export function Forms() {
                         <input type="email" placeholder="Email" value={email} onChange={(e) => SetEmail(e.target.value)} required/>
                         <input type="celphone" placeholder="Telefone" value={email} onChange={(e) => SetEmail(e.target.value)} required/>
                         <textarea placeholder="Escreva o motivo do contato." value={message} onChange={(e) => SetMessage(e.target.value)} required></textarea>
-                        <button type="submit">ENVIAR</button>
+                        <button type="submit" id="contato">ENVIAR</button>
                     </form>
                 </div>
             </div>

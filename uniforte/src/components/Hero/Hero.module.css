@@ -2,6 +2,9 @@
     --gradient: linear-gradient(90deg, #c54444, #666dbd)
 }
 
+.hero_mobile {
+  display: none;
+}
 
 .heroOverlay{
     height: 100%;
@@ -114,10 +117,51 @@ a{
 }
 }
 
-@media(max-width: 1280px) and (max-height:720px) {
+@media (max-width:1366px){
+  .heroImg{
+    width: 100vw;
+  }
+
+  .heroTextContainer{
+    overflow: visible;
+    position: absolute;
+    top: 15rem;
+    left: 10rem;
+    width: 45rem;
+    z-index: 2;
+  }
+  .heroTextContainer p{
+    font-size: 1.2rem;
+    color: white;
+    font-weight: 300;
+  }
+
+  .heroTextContainer h1{
+    font-size: 2.3rem;
+    color: white;
+    font-weight: 700;
+  }
+  
+  .button_container {
+    top: 75%;
+  }
+
+
+  .hero_button2 {
+    padding: 0.6rem 1rem;
+  }
+
+  .button_container a, p{
+    font-size: 18px;
+  }
+
+}
+
+
+@media(max-width: 1280px) {
 
   .heroImg{
-    min-height:40rem ;
+    height:90vh ;
   }
 
   .heroTextContainer{
@@ -130,28 +174,57 @@ a{
   }
 
   .heroTextContainer p{
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     color: white;
     font-weight: 300;
   }
 
   .heroTextContainer h1{
-    font-size: 2.6rem;
+    font-size: 2rem;
     color: white;
     font-weight: 700;
   }
 
   .button_container {
-    top: 90%;
+    top: 80%;
   }
 
 
   .hero_button2 {
-    padding: 0.6rem 1rem;
+    padding: 0.4rem 0.8rem;
   }
 
   .button_container a, p{
     font-size: 20px;
+  }
+}
+
+@media(max-width:1020px) {
+  .heroOverlay {
+    background-image: url(../../assets/heroimg_mobile.png);
+    background-repeat: no-repeat;
+    height: 85vh;
+  }
+
+  .heroImg{
+    display: none;
+  }
+
+  .heroTextContainer{
+    overflow: visible;
+    position: absolute;
+    top: 15rem;
+    left: 1rem;
+    width: 45rem;
+    z-index: 2;
+  }
+  .button_container {
+    left: 1rem;
+    top: 70%;
+  }
+
+  .hero_button2 {
+    padding: 0.5rem 0.5rem;
   }
 }
 

@@ -24,6 +24,8 @@ return (
             <p className={styles.heroText}>pensadas para garantir a continuidade e{""}</p> 
             <p>economia dos seus processos.</p>
         </div>
+
+        <div className={styles.hero_mobile}></div>
     </div>
 );
 }

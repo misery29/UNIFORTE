@@ -14,6 +14,7 @@
     padding: 0 2.5%;
     box-shadow: 0px 6px 19px 0px rgba(0, 0, 0, 0.75);
     overflow: hidden;
+    scroll-behavior: smooth;
   }
 
   .header img {
@@ -29,6 +30,7 @@
   
   .header a,.header button {
     cursor: pointer;
+    scroll-behavior: smooth;
   }
   
   .header ul {
@@ -39,6 +41,7 @@
     gap: 20%;
     grid-column: 2/3;
     margin-left: 5rem;
+    scroll-behavior: smooth;
   }
 
   .buttonContainer{
@@ -56,65 +59,74 @@
     color: #FFFFFF;
   }
 
-  @media (min-width: 1340px) and (max-width: 1580px) {
+  @media (max-width: 1600px) and (max-height: 900px) {
     .header {
-        width: 105vw;
-        min-width: 1450px;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 2rem;
-        padding: 0 5%;    }
+      height: 14vh;
+      width: 100vw;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 2rem;
+      padding: 0 5%;    
+    }
 
     .header img {
-        grid-column: 1;    }
-
-    .header ul {
-        grid-column-start: 2;
-        grid-column-end: 3;
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 5em;
-        flex-direction: row;
-        justify-content: space-evenly;
-        margin-left: 5%;
-
+      width: 13rem;
     }
 
-    .header li {
-        white-space: normal;
+
+    .header a, p{
+      padding-right: 10px;
+      font-size: 27px;
     }
+  }
 
-    .buttonContainer{
-        grid-column: 4;
-        max-width: fit-content; 
-        padding-right: 4rem; 
-            }
 
-    .header button {
-        background-color: #B74146;
-            }
+@media(max-width: 1440px) {
+  .header {
+    height: 12vh;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 0 5%;    
+  }
+
+  .header img {
+    width: 13rem;
+  }
+
+
+  .header a, p{
+    font-size: 26px;
+  }
+
 }
 
-@media (max-width: 1339px) {
-  .header{
-    gap:1rem;
-    width: 1400px;
-    grid-template-columns: 0.5fr 1fr 0.4fr; }
+@media (max-width:1366px){
+  .header {
+    height: 12vh;
+    width: 100vw;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    padding: 0 5%;    
+  }
 
-.header a,.header p {
-  font-size: 1.8rem;
-}
+  .header img {
+    width: 10rem;
+  }
 
-.header ul{
-  gap:10%;
-  grid-column: 2;
-  margin-left: -10%;
-}
-.buttonContainer{
-  grid-column: 3;
-  max-width: fit-content;
-  padding-right: 0; 
-  padding-left: 3rem;
-}
+
+  .header a, p{
+    font-size: 22px;
+  }
+
+
+  .header button {
+    text-align: center;
+    padding: 0.8rem 0.2rem;
+  }
+
+  .header a {
+    padding-right: 0;
+  }
 }
 
 @media(max-width: 1280px) and (max-height:720px) {
