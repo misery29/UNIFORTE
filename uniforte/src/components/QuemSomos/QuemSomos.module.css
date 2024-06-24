@@ -389,6 +389,12 @@
   .svg_QuemSomos {
     display: none;
   }
+
+  .svg_QuemSomos svg {
+    display: none;
+    width:0;
+    height:0;
+  }
   .desktop {
     display: none;
 }

@@ -201,6 +201,13 @@
 
 
 @media (max-width: 1020px) {
+
+    .svg2, .svg2 svg, .svg2 path d{
+        width:0;
+        height:0;
+
+    }
+
     .Swiper_content {
         width: 70%;
     }
