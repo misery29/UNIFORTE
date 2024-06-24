@@ -2,9 +2,9 @@
     align-items: center;
     justify-content: space-between;
     display:none;
-    position:sticky;
     top:0;
     z-index:1000;
+    width:100vw;
   }
   
   .header {
@@ -34,11 +34,8 @@
   @media (max-width: 1020px) {
     
     .drawerContainer{
-        position: sticky;
-        display:flex;
-    }
-
-    .header {
-      position: sticky;
+      display:flex;
+      position:fixed;
+      top:50;
     }
   }
