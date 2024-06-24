@@ -36,6 +36,7 @@ export function QuemSomos() {
             
             <div className={styles.mobile}>
                 <div className={styles.content_mobile}>
+                    <img src="../../assets/quem_somos.png" alt="" />
                     <h1>QUEM SOMOS NÓS</h1>
                         <p>
                         A UNIFORTE, dedica-se à prestação de serviços terceirizados, provendo a melhor composição de serviços e tecnologias para atender as
