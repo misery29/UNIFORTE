@@ -209,5 +209,9 @@
         font-size: 22px;}
 
     .Swiper_conteiner h1 {
-        font-size: 36px;}
+        font-size: 36px;
+    }
+    .svg2 {
+        display: none;
+    }
 }
