@@ -24,7 +24,7 @@
     position: absolute;
     top: 25rem;
     left: 10rem;
-    width: 45rem;
+    max-width:90vw;
     z-index: 2;
   }
 

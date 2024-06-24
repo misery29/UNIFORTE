@@ -41,7 +41,7 @@ export function Beneficios() {
                 </div>
                 <div className={styles.benefit}>
                     <div className={styles.icon}><TrendingUpOutlinedIcon sx={{ fontSize: 40,color: '#000000', }}/></div>
-                    <p>Maior eficiência operacional</p>
+                    <p>Maior eficiência	operacional</p>
                 </div>
             </div>
         </div>
