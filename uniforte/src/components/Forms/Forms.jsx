@@ -10,6 +10,7 @@ export function Forms() {
     const [name, SetName] = useState('')
     const [email, SetEmail] = useState('')
     const [message, SetMessage] = useState('')
+    const [number, SetNumber] = useState('')
 
 
     function sendEmail(e) {
@@ -19,7 +20,8 @@ export function Forms() {
         const templateParams = {
             from_name: name,
             email: email,
-            message: message
+            message: message,
+            number: number
         }
 
         
@@ -66,7 +68,7 @@ export function Forms() {
                     <form action="" onSubmit={ sendEmail }>
                         <input type="text" placeholder="Nome Completo" value={name} onChange={(e) => SetName(e.target.value)} required/>
                         <input type="email" placeholder="Email" value={email} onChange={(e) => SetEmail(e.target.value)} required/>
-                        <input type="celphone" placeholder="Telefone" value={email} onChange={(e) => SetEmail(e.target.value)} required/>
+                        <input type="number" placeholder="Telefone" value={number} onChange={(e) => SetNumber(e.target.value)} required/>
                         <textarea placeholder="Escreva o motivo do contato." value={message} onChange={(e) => SetMessage(e.target.value)} required></textarea>
                         <button type="submit" id="contato">ENVIAR</button>
                     </form>
