@@ -388,6 +388,8 @@
 @media(max-width: 1020px) {
   .svg_QuemSomos {
     display: none;
+    height: 0;
+    width: 0;
   }
 
   .svg_QuemSomos svg {
@@ -406,12 +408,12 @@
     align-items: center;
     text-align: center;
     justify-content: center;
-    max-width:100vw;
+    width:100;
   }
 
   .mobile {
     display: inline-block;
-    width: 80%;
+    width: 86%;
     height: 150vh;
     text-align: center;
     align-items: center;
@@ -422,7 +424,7 @@
     padding-top: 100px;
     justify-content: center;
     text-align: center;
-    width: 100%;
+    width: 100vw;
     background-image: url(../../assets/quem_somos.png);
     background-repeat: no-repeat;
     height: 40rem;
@@ -446,17 +448,26 @@
       left: 3rem;
       width: 80%;
       height:50rem;
-      top: 47rem;
+      top: 50rem;
       z-index:500;
     }
 
     .accordion p {
       font-size: 17px;
+      text-align: left;
     }
-
 
     .accordion svg{
       width: 30px;
       height: 30px;
+    }
+
+
+    .SVGContainer {
+      display: none;
+    }
+
+    .SVGContainer2 {
+      display: none;
     }
   }
