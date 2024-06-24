@@ -54,7 +54,7 @@ export function Swipers () {
                         <p className= {styles.Title}>Recepcionista</p>
                         <img className= {styles.Swiper_content} src= { Recepcionista }  alt="Recepcionista" />
                         <div className= { styles.button_content }>
-                            <a href="#contato" className= { styles.botao }>botao</a>
+                            <a href="#contato" className= { styles.botao }>Conheça</a>
                         </div>
                     </SwiperSlide>
                 </div>
@@ -63,7 +63,7 @@ export function Swipers () {
                         <p  className= {styles.Title}>Portaria e Controle de Acesso</p>
                         <img className= {styles.Swiper_content} src= { Porteiro } alt="Slide 1" />
                         <div className= { styles.button_content }>
-                            <a href="#contato" className= { styles.botao }>botao</a>
+                            <a href="#contato" className= { styles.botao }>Conheça</a>
                         </div> 
                         <br />
                         <br />
@@ -75,7 +75,7 @@ export function Swipers () {
                         <p className= {styles.Title}>Asseio e Conservação</p>
                         <img className= {styles.Swiper_content} src= { Asseio } alt="Asseio e conservação" />
                         <div className= { styles.button_content }>
-                            <a href="#contato" className= { styles.botao }>botao</a>
+                            <a href="#contato" className= { styles.botao }>Conheça</a>
                         </div> 
                     </SwiperSlide>
                 </div>
@@ -84,7 +84,7 @@ export function Swipers () {
                         <p className= {styles.Title}>Telefonista</p>
                         <img className= {styles.Swiper_content} src= { Telefonista } alt="Telefonista" />
                         <div className= { styles.button_content }>
-                            <a href="#contato" className= { styles.botao }>botao</a>
+                            <a href="#contato" className= { styles.botao }>Conheça</a>
                         </div> 
                     </SwiperSlide>
                 </div>
@@ -93,7 +93,7 @@ export function Swipers () {
                         <p className= {styles.Title}>Copeira</p>
                         <img className= {styles.Swiper_content} src= { Copeira } alt="Copeira" />
                         <div className= { styles.button_content }>
-                            <a href="#contato" className= { styles.botao }>botao</a>
+                            <a href="#contato" className= { styles.botao }>Conheça</a>
                         </div> 
                     </SwiperSlide>
                 </div>

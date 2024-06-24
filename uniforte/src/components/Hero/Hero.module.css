@@ -204,7 +204,7 @@ a{
     width: 100%;
     background-image: url(../../assets/heroimg_mobile.png);
     background-repeat: no-repeat;
-    height: 85vh;
+    height: 100vh;
   }
 
   .heroImg{
@@ -221,7 +221,7 @@ a{
   }
   .button_container {
     left: 1rem;
-    top: 70%;
+    top:30rem;
   }
 
   .hero_button2 {
